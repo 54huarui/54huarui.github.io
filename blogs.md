@@ -9,7 +9,7 @@ title: Blogs
 ### 安卓逆向
 
 
-- [逆向某跑酷小游戏](https://54huarui.github.io/blogs/paoku)
+- [逆向某跑酷小游戏](https://54huarui.github.io/blogs/paoku.md)
 
 
 <br>
