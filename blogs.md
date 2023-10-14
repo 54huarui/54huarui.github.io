@@ -4,7 +4,7 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-## Chinese Blogs
+# 博客
 
 ### 安卓逆向
 
