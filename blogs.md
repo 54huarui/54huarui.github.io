@@ -6,7 +6,7 @@ title: Blogs
 
 ## Chinese Blogs
 
-### 2023
+### 写在前面
 
 - 如何平衡学业、科研和恋爱？
 - [数学建模竞赛的成功四要素](https://caihanlin.com/blogs/team2023)
