@@ -6,11 +6,11 @@ layout: page
 
 <img src="https://54huarui.github.io/caihanlin.png" class="floatpic" width="360" height="480">
 
-# 桂林电子科技大学信息安全协会
+## 桂林电子科技大学信息安全协会
 <br>
 
 
-# <font color=''> 这里是**花蕊**的博客</font>
+## <font color=''> 这里是**花蕊**的博客</font>
 <br><br>
 
 <br><br>
@@ -24,6 +24,6 @@ layout: page
 
 ---
 
-## 
+
 
 
