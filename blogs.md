@@ -4,18 +4,13 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-# 博客
+## Chinese Blogs
 
 ### 安卓逆向
 
-- [
 
+- [逆向某跑酷小游戏](https://caihanlin.com/blogs/paoku)
 
 
 <br>
-
-
-
-
-
 

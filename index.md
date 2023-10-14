@@ -10,7 +10,7 @@ layout: page
 <br>
 
 
-## <font color=''> 这里是**花蕊**的博客</font>
+## <font color=''> 这里是花蕊的博客</font>
 <br><br>
 
 <br><br>
