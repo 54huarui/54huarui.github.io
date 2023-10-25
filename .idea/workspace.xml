@@ -16,10 +16,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: -1
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2GoDgBPFljLklRmMhEeS4qFDqLp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,7 +50,13 @@
       <workItem from="1697273005165" duration="108000" />
       <workItem from="1697273564023" duration="56000" />
       <workItem from="1697275169616" duration="109000" />
-      <workItem from="1697637376949" duration="163000" />
+      <workItem from="1697637376949" duration="170000" />
+      <workItem from="1697637615956" duration="22000" />
+      <workItem from="1697638615559" duration="33000" />
+      <workItem from="1697680263710" duration="1000" />
+      <workItem from="1697891743451" duration="1000" />
+      <workItem from="1697891758141" duration="16000" />
+      <workItem from="1698242729813" duration="1460000" />
     </task>
     <servers />
   </component>
