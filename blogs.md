@@ -8,6 +8,12 @@ title: Blogs
 
 <br><br>
 
+### 笔记
+
+-  [笔记](https://54huarui.github.io/blogs/biji)
+
+<br>
+
 ### Web
 
 -  [极客大挑战-unsign-反序列化 2023/11/19](https://54huarui.github.io/blogs/unis)
