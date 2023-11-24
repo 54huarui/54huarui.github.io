@@ -10,6 +10,6 @@
 
 <br>
 
-*?c=system("tac%20fla(星号)")意思是c=system("tac flag");
+* ?c=system("tac%20fla(星号)")意思是c=system("tac flag");
 
 <br>
