@@ -97,10 +97,6 @@ Cookie: UM_distinctid=17ffcdc88eb73a-022664ffe42c5b8-13676d4a-1fa400-17ffcdc88ec
 Connection: close
 ````
 
-<br>
-
-* 条件竞争漏洞：（相关：2023年线上赛web）
-[条件竞争](https://www.freebuf.com/articles/web/275557.html)
 
 <br>
 
@@ -111,6 +107,10 @@ Connection: close
 * ?file=/var/log/nginx/access.log&2=system('tac /var/www/html/fl0g.php');phpinfo();
 
 
+<br>
+
+条件竞争漏洞：（相关：2023年孟极光线上赛web）（文件上传，文件包含等都能用）
+- [条件竞争](https://www.freebuf.com/articles/web/275557.html)
 
 ````
 一般使用方法：
