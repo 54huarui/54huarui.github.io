@@ -20,7 +20,12 @@ title: Blogs
 
 - [unsign-反序列化-亲爱的领导 2023/11/19](https://54huarui.github.io/blogs/unis2)
 
+<br>
 
+
+### Misc
+
+- [somebody-内存取证 2023/11/30](https://54huarui.github.io/blogs/somebody)
 
 
 <br>

