@@ -42,7 +42,7 @@ title: Blogs
 ### 安卓逆向
 
 
-- [逆向某跑酷小游戏 2023/10/12 ](https://54huarui.github.io/blogs/paoku)
+- [逆向某跑酷小游戏内购 2023/10/12 ](https://54huarui.github.io/blogs/paoku)
 
 - [安卓.so层逆向 2023/11/5 ](https://54huarui.github.io/blogs/so)
 
