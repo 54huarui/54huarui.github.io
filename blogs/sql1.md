@@ -35,7 +35,7 @@
 
 # 特别的绕过方式
 * replace(username,'f','g'),使用改名使得flag绕过preg_match(只能对返回值过滤进行绕过)
-* 空格绕过： %0a %0d %0c /**/ + 
+* 空格绕过： %0a %0d %0c /**/ + `
 * 换行绕过空格： %0b（用于空格绕过都不成功的情况）
 
 <br>
@@ -49,6 +49,7 @@
 
 ## waf绕过
 * 大小写
+* 模糊搜索：在where处这样写 where pass like'%c%'(意思是在pass列中模糊搜索c开头的数据，其中的%可用%25替代)
 
 
 
@@ -61,12 +62,15 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 * 管道符-1'||username='flag
 * 管道符-1'||(username)like'%fla%
 
+## 布尔盲注：看脚本（用到where和select）
 
 
+<br>
 
+## regexp盲注：看脚本（where和select被过滤了可以用group by pass having pass regexp）
 
+<br>
 
-
-ctfshow-web183
+ctfshow-web184
 
 <br>
