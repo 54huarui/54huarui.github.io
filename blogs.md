@@ -24,6 +24,8 @@ title: Blogs
 
 - [sqlmap使用小结 2023/12/17](https://54huarui.github.io/blogs/sql2)
 
+- [sql手动盲注 2023/12/24](https://54huarui.github.io/blogs/sql3)
+
 <br>
 
 
