@@ -19,7 +19,7 @@ layout: page
 
 [**桂林电子科技大学**](https://space.bilibili.com/471773027)
 
-[**回显**](https://54huarui.github.io/back.php)
+[**回显**](https://54huarui.github.io/back)
 
 <br>
 
