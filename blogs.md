@@ -14,7 +14,7 @@ title: Blogs
 
 <br>
 
-### Web
+# Web
 
 ## 反序列化
 
@@ -41,21 +41,21 @@ title: Blogs
 <br>
 
 
-### Misc
+# Misc
 
 - [somebody-内存取证 2023/11/30](https://54huarui.github.io/blogs/somebody)
 
 
 <br>
 
-### PE/ELF逆向
+# PE/ELF逆向
 
 -  [攻防世界笔记 RE-666 2023/10/25 ](https://54huarui.github.io/blogs/RE-666)
 
 
 <br>
 
-### 安卓逆向
+# 安卓逆向
 
 
 - [逆向某跑酷小游戏内购 2023/10/12 ](https://54huarui.github.io/blogs/paoku)
