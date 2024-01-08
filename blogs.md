@@ -6,15 +6,14 @@ title: Blogs
 
 # 博客
 
-<br><br>
+<br>_<br>_
 
-### 笔记
 
 -  [笔记](https://54huarui.github.io/blogs/biji)
 
-<br>
-
 # Web
+
+<br>
 
 ## 反序列化
 
