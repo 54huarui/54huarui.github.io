@@ -40,6 +40,11 @@ title: Blogs
 
 <br>
 
+## 其他
+
+
+<details>
+  <summary>点击查看其他</summary>
 
 # Misc
 
@@ -64,3 +69,4 @@ title: Blogs
 
 <br>
 
+  </details>
