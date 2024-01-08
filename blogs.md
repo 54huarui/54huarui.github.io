@@ -16,9 +16,13 @@ title: Blogs
 
 ### Web
 
+## 反序列化
+
 - [极客大挑战-unsign-反序列化 2023/11/19](https://54huarui.github.io/blogs/unis)
 
 - [unsign-反序列化-亲爱的领导 2023/11/19](https://54huarui.github.io/blogs/unis2)
+
+## SQL
 
 - [sql注入笔记 2023/12/9](https://54huarui.github.io/blogs/sql1)
 
@@ -26,7 +30,13 @@ title: Blogs
 
 - [sql手动盲注 2023/12/24](https://54huarui.github.io/blogs/sql3)
 
-- [JAVA 2024/1/7](https://54huarui.github.io/blogs/java)
+## JAVA
+
+- [S2-001等 2024/1/7](https://54huarui.github.io/blogs/java)
+
+## XSS
+
+- [XSS 2024/1/7](https://54huarui.github.io/blogs/xss)
 
 <br>
 
