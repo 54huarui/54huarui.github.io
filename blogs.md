@@ -26,6 +26,8 @@ title: Blogs
 
 - [sql手动盲注 2023/12/24](https://54huarui.github.io/blogs/sql3)
 
+- [JAVA 2024/1/7](https://54huarui.github.io/blogs/java)
+
 <br>
 
 
