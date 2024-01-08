@@ -42,8 +42,8 @@ links:
 #    url: /awards/
 #- title: Fundings
 #    url: /fundings/
-  - title: 回显接收
-    url: /hobbies/
+#title: 回显接收
+#url: /hobbies/
   - title: 博客
     url: /blogs/
 
