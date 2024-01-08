@@ -43,30 +43,29 @@ title: Blogs
 ## 其他
 
 
-<details>
-  <summary>点击查看其他</summary>
+<details> <summary>点击查看其他</summary>
 
-# Misc
+    # Misc
+    
+    - [somebody-内存取证 2023/11/30](https://54huarui.github.io/blogs/somebody)
+    
+    
+    <br>
+    
+    # PE/ELF逆向
+    
+    -  [攻防世界笔记 RE-666 2023/10/25 ](https://54huarui.github.io/blogs/RE-666)
+    
+    
+    <br>
+    
+    # 安卓逆向
+    
+    
+    - [逆向某跑酷小游戏内购 2023/10/12 ](https://54huarui.github.io/blogs/paoku)
+    
+    - [安卓.so层逆向 2023/11/5 ](https://54huarui.github.io/blogs/so)
+    
+    <br>
 
-- [somebody-内存取证 2023/11/30](https://54huarui.github.io/blogs/somebody)
-
-
-<br>
-
-# PE/ELF逆向
-
--  [攻防世界笔记 RE-666 2023/10/25 ](https://54huarui.github.io/blogs/RE-666)
-
-
-<br>
-
-# 安卓逆向
-
-
-- [逆向某跑酷小游戏内购 2023/10/12 ](https://54huarui.github.io/blogs/paoku)
-
-- [安卓.so层逆向 2023/11/5 ](https://54huarui.github.io/blogs/so)
-
-<br>
-
-  </details>
+</details>

