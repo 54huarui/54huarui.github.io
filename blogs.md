@@ -42,7 +42,7 @@ title: Blogs
 ## 其他
 
 
-<details> <summary>点击查看其他</summary>
+
 
 # Misc
     
@@ -66,5 +66,3 @@ title: Blogs
 - [安卓.so层逆向 2023/11/5 ](https://54huarui.github.io/blogs/so)
 
 <br>
-
-</details>
