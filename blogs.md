@@ -21,7 +21,7 @@ title: Blogs
 
 - [unsign-反序列化-亲爱的领导 2023/11/19](https://54huarui.github.io/blogs/unis2)
 
-## SQL
+## SQL注入
 
 - [sql注入笔记 2023/12/9](https://54huarui.github.io/blogs/sql1)
 
