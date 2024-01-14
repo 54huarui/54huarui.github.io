@@ -31,7 +31,7 @@ title: Blogs
 
 ## JAVA
 
-- [S2-001等 2024/1/7](https://54huarui.github.io/blogs/java)
+- [Struts2漏洞 2024/1/14](https://54huarui.github.io/blogs/java)
 
 ## XSS
 
@@ -49,7 +49,7 @@ title: Blogs
     
 # PE/ELF逆向
     
--  [攻防世界笔记 RE-666 2023/10/25 ](https://54huarui.github.io/blogs/RE-666)
+- [攻防世界笔记 RE-666 2023/10/25 ](https://54huarui.github.io/blogs/RE-666)
     
     
 <br>
