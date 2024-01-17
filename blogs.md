@@ -19,13 +19,13 @@ title: Blogs
 
 <br>
 
-## 反序列化
+### 反序列化
 
 - [极客大挑战-unsign-反序列化 2023/11/19](https://54huarui.github.io/blogs/unis)
 
 - [unsign-反序列化-亲爱的领导 2023/11/19](https://54huarui.github.io/blogs/unis2)
 
-## SQL注入
+### SQL注入
 
 - [sql注入笔记 2023/12/9](https://54huarui.github.io/blogs/sql1)
 
@@ -33,11 +33,11 @@ title: Blogs
 
 - [sql手动盲注 2023/12/24](https://54huarui.github.io/blogs/sql3)
 
-## JAVA
+### JAVA
 
 - [Struts2漏洞 2024/1/14](https://54huarui.github.io/blogs/java)
 
-## XSS
+### XSS
 
 - [XSS 2024/1/7](https://54huarui.github.io/blogs/xss)
 
@@ -45,7 +45,7 @@ title: Blogs
 
 *********
 
-# Misc
+## Misc
     
 - [somebody-内存取证 2023/11/30](https://54huarui.github.io/blogs/somebody)
     
@@ -54,7 +54,7 @@ title: Blogs
 
 ***
 
-# PE/ELF逆向
+## PE/ELF逆向
     
 - [攻防世界笔记 RE-666 2023/10/25 ](https://54huarui.github.io/blogs/RE-666)
     
@@ -63,7 +63,7 @@ title: Blogs
 
 ******
 
-# 安卓逆向
+## 安卓逆向
     
     
 - [逆向某跑酷小游戏内购 2023/10/12 ](https://54huarui.github.io/blogs/paoku)
