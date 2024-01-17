@@ -165,6 +165,7 @@ Connection: close
 
 ### 其他总结
 * 伪协议绕过:?u=php://filter/read=convert.base64-encode/resource=flag.php(任何打开文件，读取文件的操作都可以使用伪协议绕过)
+* 伪协议绕过:?u=php://filter/read=convert.base64-encode/resource=/var/www/html/flag(任何打开文件，读取文件的操作都可以使用伪协议绕过)
 
 
 

