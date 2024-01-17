@@ -4,6 +4,8 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
+***
+
 # 博客
 
 <br>_<br>_
@@ -11,7 +13,9 @@ title: Blogs
 
 -  [笔记](https://54huarui.github.io/blogs/biji)
 
-# Web
+******
+
+## Web
 
 <br>
 
@@ -39,6 +43,7 @@ title: Blogs
 
 <br>
 
+*********
 
 # Misc
     
@@ -46,14 +51,18 @@ title: Blogs
     
     
 <br>
-    
+
+***
+
 # PE/ELF逆向
     
 - [攻防世界笔记 RE-666 2023/10/25 ](https://54huarui.github.io/blogs/RE-666)
     
     
 <br>
-    
+
+******
+
 # 安卓逆向
     
     
@@ -62,3 +71,5 @@ title: Blogs
 - [安卓.so层逆向 2023/11/5 ](https://54huarui.github.io/blogs/so)
 
 <br>
+
+******
