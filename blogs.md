@@ -41,7 +41,9 @@ title: Blogs
 
 - [XSS 2024/1/7](https://54huarui.github.io/blogs/xss)
 
-<br>
+### SSRF
+
+* [SSRF 2024/1/17](https://54huarui.github.io/blogs/SSRF)
 
 *********
 
