@@ -25,6 +25,8 @@ title: Blogs
 
 - [unsign-反序列化-亲爱的领导 2023/11/19](https://54huarui.github.io/blogs/unis2)
 
+<br>
+
 ### SQL注入
 
 - [sql注入笔记 2023/12/9](https://54huarui.github.io/blogs/sql1)
@@ -33,17 +35,31 @@ title: Blogs
 
 - [sql手动盲注 2023/12/24](https://54huarui.github.io/blogs/sql3)
 
+<br>
+
 ### JAVA
 
 - [Struts2漏洞 2024/1/14](https://54huarui.github.io/blogs/java)
+
+<br>
 
 ### XSS
 
 - [XSS 2024/1/7](https://54huarui.github.io/blogs/xss)
 
+<br>
+
 ### SSRF
 
 * [SSRF 2024/1/17](https://54huarui.github.io/blogs/SSRF)
+
+<br>
+
+### SSTI
+
+* [SSTI 2024/2/4](https://54huarui.github.io/blogs/SSTI)
+
+<br>
 
 *********
 
