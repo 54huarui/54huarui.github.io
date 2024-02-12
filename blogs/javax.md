@@ -21,10 +21,10 @@
 
 ### 课程
 
-https://space.bilibili.com/2142877265/channel/collectiondetail?sid=29805&ctype=0
+- [java反序列化1](https://space.bilibili.com/2142877265/channel/collectiondetail?sid=29805&ctype=0)
 
 
-https://www.bilibili.com/video/BV16h411z7o9/?spm_id_from=333.999.0.0&vd_source=23c2bbe4623ae526416ea7a1ec4679fc
+- [java反序列化2](https://www.bilibili.com/video/BV16h411z7o9/?spm_id_from=333.999.0.0&vd_source=23c2bbe4623ae526416ea7a1ec4679fc)
 
 <br>
 
