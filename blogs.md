@@ -40,6 +40,7 @@ title: Blogs
 ### JAVA
 
 - [Struts2漏洞 2024/1/14](https://54huarui.github.io/blogs/java)
+
 - [java反序列化 2024/2/11](https://54huarui.github.io/blogs/javax)
 
 <br>
