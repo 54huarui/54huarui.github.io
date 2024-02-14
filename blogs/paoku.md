@@ -13,7 +13,7 @@ title: 逆向某跑酷小游戏
 
 <br>
 
-<img src="https://54huarui.github.io/blogs/paoku/tt.png" width="880" height="480">
+    <img src="https://54huarui.github.io/blogs/paoku/tt.png" width="880" height="480">
 
 <br>
 
