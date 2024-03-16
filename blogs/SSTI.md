@@ -34,7 +34,7 @@ ssti服务端模板注入，ssti主要为python的一些框架 jinja2 mako torna
 
 #### render_template函数
 
-<img src="https://54huarui.github.io/blogs/falsk/p1.png" class="floatpic" width="360" height="480">
+<img src="https://54huarui.github.io/blogs/falsk/p1.png" class="floatpic" width="800" height="480">
 
 #### regquest.arg.get('a')函数
 
@@ -43,7 +43,16 @@ ssti服务端模板注入，ssti主要为python的一些框架 jinja2 mako torna
 #### render_template_string函数
 
 多用于ctf赛题里，用于渲染字符串，可以直接定义网页内容
-<img src="https://54huarui.github.io/blogs/falsk/p3.png" class="floatpic" width="360" height="480">
+<img src="https://54huarui.github.io/blogs/falsk/p3.png" class="floatpic" width="800" height="480">
+
+#### url_for()函数
+
+用来构建url
+
+#### redirect()函数
+
+用来重定向网站
+
 
 <br>
 
@@ -66,6 +75,7 @@ ssti服务端模板注入，ssti主要为python的一些框架 jinja2 mako torna
 里面有两个参数需要我们渲染，user.name，以及title
 
 我们在app.py文件里进行渲染。
+
 
 ````
 @app.route('/')

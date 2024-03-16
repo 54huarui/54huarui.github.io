@@ -205,3 +205,5 @@ System.out.println(Base64.getEncoder().encodeToString(data.toByteArray()));
 }  
 }
 ````
+
+需要反弹shell
