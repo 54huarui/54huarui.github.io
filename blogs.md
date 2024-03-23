@@ -90,6 +90,8 @@ title: Blogs
     
 - [安卓.so层逆向 2023/11/5 ](https://54huarui.github.io/blogs/so)
 
+- [某定位卡密软件 代码段删除 2024/3/23 ](https://54huarui.github.io/blogs/anduni)
+
 <br>
 
 ******
