@@ -8,9 +8,9 @@ title: Blogs
 
 # 博客
 
-最近更新：
+#### 最近更新：
 
-- [某定位卡密软件 代码段删除 2024/3/23 ](https://54huarui.github.io/blogs/anduni)
+- [某定位卡密软件（可以便宜买券吃外卖） 代码段删除 2024/3/23 ](https://54huarui.github.io/blogs/anduni)
 
 * [SSTI 2024/2/4](https://54huarui.github.io/blogs/SSTI)
 
