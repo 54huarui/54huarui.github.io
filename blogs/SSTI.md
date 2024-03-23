@@ -34,7 +34,7 @@ ssti服务端模板注入，ssti主要为python的一些框架 jinja2 mako torna
 
 #### render_template函数
 
-<img src="https://54huarui.github.io/blogs/falsk/p1.png" class="floatpic" width="800" height="480">
+<img src="https://54huarui.github.io/blogs/falsk/p1.png" class="floatpic" width="880" height="480">
 
 #### regquest.arg.get('a')函数
 
@@ -43,7 +43,7 @@ ssti服务端模板注入，ssti主要为python的一些框架 jinja2 mako torna
 #### render_template_string函数
 
 多用于ctf赛题里，用于渲染字符串，可以直接定义网页内容
-<img src="https://54huarui.github.io/blogs/falsk/p3.png" class="floatpic" width="800" height="480">
+<img src="https://54huarui.github.io/blogs/falsk/p3.png" class="floatpic" width="880" height="480">
 
 #### url_for()函数
 
