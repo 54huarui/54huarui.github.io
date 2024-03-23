@@ -8,7 +8,20 @@ title: Blogs
 
 # 博客
 
-<br>_<br>_
+最近更新：
+
+- [某定位卡密软件 代码段删除 2024/3/23 ](https://54huarui.github.io/blogs/anduni)
+
+* [SSTI 2024/2/4](https://54huarui.github.io/blogs/SSTI)
+
+
+* [SSRF 2024/1/17](https://54huarui.github.io/blogs/SSRF)
+
+
+
+
+
+******
 
 
 -  [笔记](https://54huarui.github.io/blogs/biji)
