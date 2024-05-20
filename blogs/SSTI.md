@@ -1,4 +1,4 @@
-# SST
+# SSTI
 
 <br>
 
