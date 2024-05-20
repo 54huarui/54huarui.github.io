@@ -16,4 +16,4 @@
 这里经过尝试在框1填入1，框2填入2，框3算出3
 反之框1填入2，框2填入3，框3算出1 得证
 
-<img src="https://54huarui.github.io/blogs/iscc/apq.png" class="floatpic" width="880" height="480">
+<img src="https://54huarui.github.io/blogs/iscc/apq.png" width="880" height="480">
