@@ -10,6 +10,8 @@ title: Blogs
 
 #### 最近更新：
 
+* [log4j 2024/5/26](https://54huarui.github.io/blogs/log4j)
+
 - [某定位卡密软件（可以便宜买券吃外卖） 代码段删除 2024/3/23 ](https://54huarui.github.io/blogs/anduni)
 
 * [SSTI 2024/2/4](https://54huarui.github.io/blogs/SSTI)
