@@ -58,6 +58,8 @@ title: Blogs
 
 - [java反序列化 2024/2/11](https://54huarui.github.io/blogs/javax)
 
+- [log4j 2024/5/26](https://54huarui.github.io/blogs/log4j)
+
 <br>
 
 ### XSS
