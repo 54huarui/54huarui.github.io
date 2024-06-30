@@ -8,7 +8,12 @@ title: Blogs
 
 # 博客
 
+<br>
+
 #### 最近更新：
+
+* [ctfshow刷题 2024/6/30](https://54huarui.github.io/blogs/ctfshows)
+
 
 * [Dirb 2024/6/30](https://54huarui.github.io/blogs/dirb扫)
 
@@ -27,9 +32,11 @@ title: Blogs
 
 
 ******
-
+# 笔记
 
 -  [笔记](https://54huarui.github.io/blogs/biji)
+
+* [ctfshow刷题 2024/6/30](https://54huarui.github.io/blogs/ctfshows)
 
 ******
 
