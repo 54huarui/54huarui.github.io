@@ -10,6 +10,9 @@ title: Blogs
 
 #### 最近更新：
 
+* [Dirb 2024/6/30](https://54huarui.github.io/blogs/dirb扫)
+
+
 * [log4j 2024/5/26](https://54huarui.github.io/blogs/log4j)
 
 - [某定位卡密软件（可以便宜买券吃外卖） 代码段删除 2024/3/23 ](https://54huarui.github.io/blogs/anduni)
@@ -77,6 +80,12 @@ title: Blogs
 ### SSTI
 
 * [SSTI 2024/2/4](https://54huarui.github.io/blogs/SSTI)
+
+<br>
+
+### 小工具
+
+* [Dirb 2024/6/30](https://54huarui.github.io/blogs/dirb扫)
 
 <br>
 
