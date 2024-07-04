@@ -16,6 +16,8 @@
 <img src="https://54huarui.github.io/blogs/ctfshows/2.png" width="880" height="480">
 
 
+<br>
+
 ## web9
 
 <br>
@@ -36,3 +38,28 @@ md5(ffifdyop,32) = 276f722736c95d99e921722cf9ed621c
 转成字符串为'or'6�]��!r,��b
 
 <img src="https://54huarui.github.io/blogs/ctfshows/5.png" width="880" height="480">
+
+<br>
+
+## web9
+
+<br>
+
+这题和上题大致相似，但是有一点爆了，过滤太多了
+
+<br>
+
+## web11
+
+
+<br>
+
+<img src="https://54huarui.github.io/blogs/ctfshows/6.png" width="880" height="480">
+
+这题只需要SESSION和密码相等就行 
+SESSION可以在数据包的PHPESSID改为空
+密码这里也填空
+然后发包即可
+
+
+<br>

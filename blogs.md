@@ -12,7 +12,7 @@ title: Blogs
 
 #### 最近更新：
 
-* [ctfshow刷题 2024/6/30](https://54huarui.github.io/blogs/ctfshows)
+* [ctfshow刷题 2024/7/3](https://54huarui.github.io/blogs/ctfshows)
 
 
 * [Dirb 2024/6/30](https://54huarui.github.io/blogs/dirb扫)
