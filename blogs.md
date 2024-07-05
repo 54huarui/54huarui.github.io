@@ -12,6 +12,8 @@ title: Blogs
 
 #### 最近更新：
 
+* [小学期web题 2024/7/5](https://54huarui.github.io/blogs/xxqweb)
+
 * [ctfshow刷题 2024/7/3](https://54huarui.github.io/blogs/ctfshows)
 
 
@@ -44,7 +46,12 @@ title: Blogs
 
 ******
 
-## Web
+# Web
+
+<br>
+
+* [小学期web题 2024/7/5](https://54huarui.github.io/blogs/xxqweb)
+
 
 <br>
 
@@ -102,7 +109,7 @@ title: Blogs
 
 *********
 
-## Misc
+# Misc
     
 - [somebody-内存取证 2023/11/30](https://54huarui.github.io/blogs/somebody)
     
@@ -111,7 +118,7 @@ title: Blogs
 
 ***
 
-## PE/ELF逆向
+# PE/ELF逆向
     
 - [攻防世界笔记 RE-666 2023/10/25 ](https://54huarui.github.io/blogs/RE-666)
     
@@ -120,7 +127,7 @@ title: Blogs
 
 ******
 
-## 安卓逆向
+# 安卓逆向
     
     
 - [逆向某跑酷小游戏内购 2023/10/12 ](https://54huarui.github.io/blogs/paoku)
