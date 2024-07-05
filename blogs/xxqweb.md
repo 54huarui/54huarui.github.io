@@ -52,5 +52,29 @@ print_r($stack);
 
 ## ez_rce
 
+
+<br>
+
+这题的非预期解，仅限php7环境
+
+<br>
+
 <img src="https://54huarui.github.io/blogs/xxq/1.png" width="880" height="480">
 
+<br>
+
+````
+<?php
+
+$a = "这里改成函数或者命令";
+echo urlencode(~$a);
+````
+<br>
+
+这个会生成url加密的东西，拿去替换~(~函数)(~命令);
+
+<br>
+
+最终
+
+<img src="https://54huarui.github.io/blogs/xxq/2.png" width="880" height="480">
