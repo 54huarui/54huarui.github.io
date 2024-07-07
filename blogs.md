@@ -12,7 +12,7 @@ title: Blogs
 
 #### 最近更新：
 
-* [CVE-2024-36401](https://54huarui.github.io/blogs/geo)
+* [CVE-2024-36401（复现）](https://54huarui.github.io/blogs/geo)
 
 
 * [小学期web题 2024/7/5](https://54huarui.github.io/blogs/xxqweb)
