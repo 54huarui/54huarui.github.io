@@ -12,6 +12,8 @@ title: Blogs
 
 #### 最近更新：
 
+
+
 * [CVE-2024-36401（复现）](https://54huarui.github.io/blogs/geo)
 
 
@@ -49,11 +51,13 @@ title: Blogs
 
 <br>
 
-# CVE
+# 挖洞
 
 <br>
 
 * [CVE-2024-36401](https://54huarui.github.io/blogs/geo)
+
+* [笔记](https://54huarui.github.io/blogs/donk)
 
 <br>
 
