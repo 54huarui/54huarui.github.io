@@ -16,7 +16,7 @@ title: Blogs
 
 * [moectf2024反序列化 2024/8/13](https://54huarui.github.io/blogs/uni3)
 
-* [Docker相关 2024/8/12](https://54huarui.github.io/blogs/docker.md)
+* [Docker相关 2024/8/12](https://54huarui.github.io/blogs/docker)
 
 * [CVE-2024-36401（复现）](https://54huarui.github.io/blogs/geo)
 
