@@ -12,27 +12,15 @@ title: Blogs
 
 #### 最近更新：
 
-* [Docker相关](https://54huarui.github.io/blogs/docker.md)
+* [用友U8C KeyWordDetailReportQuery_SQL sql注入漏洞 2024/8/13](https://54huarui.github.io/blogs/sqlyy)
+
+* [moectf2024反序列化 2024/8/13](https://54huarui.github.io/blogs/uni3)
+
+* [Docker相关 2024/8/12](https://54huarui.github.io/blogs/docker.md)
 
 * [CVE-2024-36401（复现）](https://54huarui.github.io/blogs/geo)
 
-
 * [小学期web题 2024/7/5](https://54huarui.github.io/blogs/xxqweb)
-
-
-* [ctfshow刷题 2024/7/3](https://54huarui.github.io/blogs/ctfshows)
-
-
-* [Dirb 2024/6/30](https://54huarui.github.io/blogs/dirb扫)
-
-
-* [log4j 2024/5/26](https://54huarui.github.io/blogs/log4j)
-
-- [某定位卡密软件（可以便宜买券吃外卖） 代码段删除 2024/3/23 ](https://54huarui.github.io/blogs/anduni)
-
-
-
-
 
 <br>
 
@@ -43,9 +31,10 @@ title: Blogs
 <br>
 
 
--  [笔记](https://54huarui.github.io/blogs/biji)
+* [笔记](https://54huarui.github.io/blogs/biji)
 
 * [ctfshow刷题 2024/6/30](https://54huarui.github.io/blogs/ctfshows)
+
 
 ******
 
@@ -71,15 +60,19 @@ title: Blogs
 
 <br>
 
-### 反序列化
+### php反序列化
 
 - [极客大挑战-unsign-反序列化 2023/11/19](https://54huarui.github.io/blogs/unis)
 
 - [unsign-反序列化-亲爱的领导 2023/11/19](https://54huarui.github.io/blogs/unis2)
 
+- [moectf2024反序列化 2024/8/13](https://54huarui.github.io/blogs/uni3)
+
 <br>
 
 ### SQL注入
+
+- [用友U8C KeyWordDetailReportQuery_SQL sql注入漏洞 2024/8/13](https://54huarui.github.io/blogs/sqlyy)
 
 - [sql注入笔记 2023/12/9](https://54huarui.github.io/blogs/sql1)
 
