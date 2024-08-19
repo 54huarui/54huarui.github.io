@@ -40,6 +40,9 @@ title: Blogs
 
 * [ctfshow刷题 2024/6/30](https://54huarui.github.io/blogs/ctfshows)
 
+* [记一个很有趣的php绕过 2024/8/18](https://54huarui.github.io/blogs/php1)
+
+<br>
 
 ******
 
@@ -60,7 +63,13 @@ title: Blogs
 
 <br>
 
+### ctf笔记
+
+* [moecttf铜人阵脚本 2024/8/19](https://54huarui.github.io/blogs/tongren)
+
 * [小学期web题 2024/7/5](https://54huarui.github.io/blogs/xxqweb)
+
+* [moectf2024反序列化 2024/8/13](https://54huarui.github.io/blogs/uni3)
 
 
 <br>
