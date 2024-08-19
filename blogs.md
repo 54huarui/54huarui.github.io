@@ -12,6 +12,8 @@ title: Blogs
 
 #### 最近更新：
 
+* [moecttf铜人阵脚本 2024/8/19](https://54huarui.github.io/blogs/tongren)
+
 * [登陆类sql注入 2024/8/19](https://54huarui.github.io/blogs/sqllogin)
 
 * [记一个很有趣的php绕过 2024/8/18](https://54huarui.github.io/blogs/php1)
