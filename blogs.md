@@ -12,6 +12,8 @@ title: Blogs
 
 #### 最近更新：
 
+* [私有对象在反序列化中的访问方法 2024/8/24](https://54huarui.github.io/blogs/unif)
+
 * [moecttf铜人阵脚本 2024/8/19](https://54huarui.github.io/blogs/tongren)
 
 * [登陆类sql注入 2024/8/19](https://54huarui.github.io/blogs/sqllogin)
@@ -65,6 +67,8 @@ title: Blogs
 
 ### ctf笔记
 
+* [私有对象在反序列化中的访问方法 2024/8/24](https://54huarui.github.io/blogs/unif)
+
 * [moecttf铜人阵脚本 2024/8/19](https://54huarui.github.io/blogs/tongren)
 
 * [小学期web题 2024/7/5](https://54huarui.github.io/blogs/xxqweb)
@@ -81,6 +85,8 @@ title: Blogs
 - [unsign-反序列化-亲爱的领导 2023/11/19](https://54huarui.github.io/blogs/unis2)
 
 - [moectf2024反序列化 2024/8/13](https://54huarui.github.io/blogs/uni3)
+
+- [私有对象在反序列化中的访问方法 2024/8/24](https://54huarui.github.io/blogs/unif)
 
 <br>
 
@@ -159,7 +165,7 @@ title: Blogs
     
 - [安卓.so层逆向 2023/11/5 ](https://54huarui.github.io/blogs/so)
 
-- [某定位卡密软件 代码段删除 2024/3/23 ](https://54huarui.github.io/blogs/anduni)
+- [某定位卡密软件破解 代码段删除 2024/3/23 ](https://54huarui.github.io/blogs/anduni)
 
 <br>
 
