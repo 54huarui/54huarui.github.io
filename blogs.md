@@ -12,6 +12,8 @@ title: Blogs
 
 #### 最近更新：
 
+* [basectf数学大师脚本 2024/8/24](https://54huarui.github.io/blogs/mathma)
+
 * [私有对象在反序列化中的访问方法 2024/8/24](https://54huarui.github.io/blogs/unif)
 
 * [moecttf铜人阵脚本 2024/8/19](https://54huarui.github.io/blogs/tongren)
