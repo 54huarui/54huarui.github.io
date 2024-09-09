@@ -12,6 +12,8 @@ title: Blogs
 
 #### 最近更新：
 
+* [php特性 2024/9/9](https://54huarui.github.io/blogs/php特性.md)
+
 * [basectf数学大师脚本 2024/8/24](https://54huarui.github.io/blogs/mathma)
 
 * [私有对象在反序列化中的访问方法 2024/8/24](https://54huarui.github.io/blogs/unif)
