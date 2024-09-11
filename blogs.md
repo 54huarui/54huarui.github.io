@@ -12,6 +12,8 @@ title: Blogs
 
 #### 最近更新：
 
+* [python原型链污染 2024/9/11](https://54huarui.github.io/blogs/python原型链污染)
+
 * [php特性 2024/9/9](https://54huarui.github.io/blogs/phptxx)
 
 * [basectf数学大师脚本 2024/8/24](https://54huarui.github.io/blogs/mathma)
@@ -25,12 +27,6 @@ title: Blogs
 * [记一个很有趣的php绕过 2024/8/18](https://54huarui.github.io/blogs/php1)
 
 * [moectf2024反序列化 2024/8/13](https://54huarui.github.io/blogs/uni3)
-
-* [用友U8C KeyWordDetailReportQuery_SQL sql注入漏洞 2024/8/13](https://54huarui.github.io/blogs/sqlyy)
-
-* [moectf2024反序列化 2024/8/13](https://54huarui.github.io/blogs/uni3)
-
-* [Docker相关 2024/8/12](https://54huarui.github.io/blogs/docker)
 
 
 <br>
@@ -130,7 +126,13 @@ title: Blogs
 
 <br>
 
-### SSTI
+### python
+
+#### 原型链污染
+
+* [python原型链污染 2024/9/11](https://54huarui.github.io/blogs/python原型链污染)
+
+#### SSTI
 
 * [SSTI 2024/2/4](https://54huarui.github.io/blogs/SSTI)
 
