@@ -12,7 +12,7 @@ title: Blogs
 
 #### 最近更新：
 
-# [ctfshow内网渗透复现 2024/9/18](https://54huarui.github.io/blogs/internalwww)
+* [ctfshow内网渗透复现 2024/9/18](https://54huarui.github.io/blogs/internalwww)
 
 * [xss的一些补充 2024/9/16](https://54huarui.github.io/blogs/srcxss)
 
@@ -133,6 +133,8 @@ title: Blogs
 <br>
 
 ### python
+
+<br>
 
 #### 原型链污染
 
