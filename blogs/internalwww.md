@@ -71,9 +71,13 @@ exploit
 刚刚扫描的时候发现一个80端口和文件管理系统，我们想办法进入看看怎么个事。网上有两种办法，一个是用ssh搭
 socks5隧道，第二种就是用ssh映射直接映射到本地端口。我这里选择第二种办法
 
+````
+ssh -L 8085:172.2.249.5:80 ctfshow@pwn.challenge.ctf.show -p 28195
+````
 
+然后可以直接访问本地的8085端口
 
-
+<img src="https://54huarui.github.io/blogs/internalwww/4.png" width="880" height="480">
 
 
 
