@@ -12,6 +12,10 @@ title: Blogs
 
 #### 最近更新：
 
+# [ctfshow内网渗透复现 2024/9/18](https://54huarui.github.io/blogs/internalwww)
+
+* [xss的一些补充 2024/9/16](https://54huarui.github.io/blogs/srcxss)
+
 * [python原型链污染 2024/9/11](https://54huarui.github.io/blogs/python原型链污染)
 
 * [php特性 2024/9/9](https://54huarui.github.io/blogs/phptxx)
@@ -117,6 +121,8 @@ title: Blogs
 ### XSS
 
 - [XSS 2024/1/7](https://54huarui.github.io/blogs/xss)
+
+- [xss的一些补充 2024/9/16](https://54huarui.github.io/blogs/srcxss)
 
 <br>
 
