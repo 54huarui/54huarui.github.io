@@ -74,7 +74,7 @@ cat /etc/shells    显示可用的shell
 这里以咱们的靶场为例
 
 
-### 1.突破
+### 1.突破前端
 
 <br>
 
@@ -112,9 +112,14 @@ cat /etc/shells    显示可用的shell
 
 然鹅，最后一步的获取shell启动失败了，返回null
 
-放弃这条路了
+<img src="https://54huarui.github.io/blogs/tiquan/6.png" width="880" height="480">
 
 <br>
+
+放弃这条路了,为了保持完整的环境，出来先删掉test容器
+
+
+### 3.代理
 
 于是我又把目光转向socks5代理
 
@@ -133,3 +138,37 @@ cat /etc/shells    显示可用的shell
 尝试链接127.0.0.1:8080端口，正向代理成功
 
 <img src="https://54huarui.github.io/blogs/tiquan/4.png" width="880" height="480">
+
+<br>
+
+思路一下子打开了，既然连接到内网成功了，那岂不是可以直接用物理机上的工具对内网进行扫描和渗透了吗？
+
+<br>
+
+### 验证猜想
+
+首先用proxifier修改一下配置，让proxifier允许我们的代理
+
+<img src="https://54huarui.github.io/blogs/tiquan/7.png" width="880" height="480">
+
+<br>
+
+成功扫描到主机了！
+
+<img src="https://54huarui.github.io/blogs/tiquan/8.png" width="880" height="480">
+
+<br>
+
+接下来就用msf试试
+
+做着做着突然发现对于windows的msf，msf的exe太多了，根本选不完，Proxifier配置规则里的Application应该填什么...
+
+经过长达两个小时的摸索终于找到办法了。。。
+
+<img src="https://54huarui.github.io/blogs/tiquan/9.png" width="880" height="480">
+
+<br>
+
+配置cmd.exe;fscan.exe;OpenConsole.exe;"E:\metasploit-framework\*.exe"即可
+
+<br>
