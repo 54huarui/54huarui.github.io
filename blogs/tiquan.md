@@ -1,4 +1,4 @@
-# 内网渗透 自家靶机
+# 内网渗透 guetsec招新靶场
 
 <br>
 
@@ -118,6 +118,7 @@ cat /etc/shells    显示可用的shell
 
 放弃这条路了,为了保持完整的环境，出来先删掉test容器
 
+<br>
 
 ### 3.代理
 
@@ -161,7 +162,7 @@ cat /etc/shells    显示可用的shell
 
 接下来就用msf试试
 
-做着做着突然发现对于windows的msf，msf的exe太多了，根本选不完，Proxifier配置规则里的Application应该填什么...
+做着做着突然发现对于windows的msf，不知道运行的是哪个exe，根本找不着。所以不懂Proxifier配置规则里的Application应该填什么...
 
 经过长达两个小时的摸索终于找到办法了。。。
 
@@ -276,7 +277,7 @@ set lhost 192.168.10.16
 
 <br>
 
-看来有人捷足先登了，汗流浃背了哥们。。
+看来蛋挞哥捷足先登了，汗流浃背了哥们。。
 
 故技重施，用fscan扫描，又又又发现一个永恒之蓝了。。。
 
@@ -314,12 +315,18 @@ msf的又打不进去了，一直弹fail(环境太卡了
 
 <br>
 
+利用wmic命令执行dir /s /p c:\flag.txt寻找靶机c盘里flag文件，然后将回显输入到/ips.txt
+
 具体命令如下
 ````
-寻找靶机c盘里flag文件，将回显输入到/ips.txt
 wmic /node:172.172.2.100 /user:Administrator /password:"GUETsec-2024" process call create "cmd.exe /c dir /s /p c:\flag.txt > c:\ip.txt"
+````
 
-读取回显type \\172.172.2.100\c$\ips.txt
+<br>
+
+然后就是读取回显type \\172.172.2.100\c$\ips.txt
+
+````
 C:\Users\admin01>type \\172.172.2.100\c$\ips.txt
  驱动器 C 中的卷没有标签。
  卷的序列号是 38C9-3CF9
@@ -331,7 +338,7 @@ C:\Users\admin01>type \\172.172.2.100\c$\ips.txt
 
 ````
 
-找到了，直接读文件就行
+这里可以找到flag的目录就是c:\Documents and Settings\Administrator\Deskto，我们直接读文件就行
 
 <br>
 

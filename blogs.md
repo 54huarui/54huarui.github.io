@@ -12,6 +12,8 @@ title: Blogs
 
 #### 最近更新：
 
+* [ctfshow内部赛 除了会连菜刀你还会啥 2024/9/29](https://54huarui.github.io/blogs/dingshi)
+
 * [ctfshow内网渗透复现 2024/9/18](https://54huarui.github.io/blogs/internalwww)
 
 * [xss的一些补充 2024/9/16](https://54huarui.github.io/blogs/srcxss)
@@ -66,6 +68,15 @@ title: Blogs
 
 
 # Web
+
+<br>
+
+### 渗透测试
+
+* [ctfshow内网渗透复现 2024/9/18](https://54huarui.github.io/blogs/internalwww)
+
+* [ctfshow内部赛 除了会连菜刀你还会啥 2024/9/29](https://54huarui.github.io/blogs/dingshi)
+
 
 <br>
 
