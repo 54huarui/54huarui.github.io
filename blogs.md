@@ -6,6 +6,20 @@ title: Blogs
 
 ***
 
+# 渗透测试作业
+
+<br>
+
+* [等保2.0](https://54huarui.github.io/blogs/zuoye1)
+
+* [等保2.0](https://54huarui.github.io/blogs/zuoye1)
+
+
+
+
+
+***
+
 # 博客
 
 <br>
@@ -20,7 +34,7 @@ title: Blogs
 
 * [python原型链污染 2024/9/11](https://54huarui.github.io/blogs/python原型链污染)
 
-* [php特性 2024/9/9](https://54huarui.github.io/blogs/phptxx)
+* [某个有意思的php特性 2024/9/9](https://54huarui.github.io/blogs/phptxx)
 
 * [basectf数学大师脚本 2024/8/24](https://54huarui.github.io/blogs/mathma)
 
@@ -71,11 +85,11 @@ title: Blogs
 
 <br>
 
-### 渗透测试
+### 渗透
 
 * [ctfshow内网渗透复现 2024/9/18](https://54huarui.github.io/blogs/internalwww)
 
-* [ctfshow内部赛 除了会连菜刀你还会啥 2024/9/29](https://54huarui.github.io/blogs/dingshi)
+* [ctfshow内部赛 除了会连菜刀你还会啥 CVE-2016-1247 2024/9/29](https://54huarui.github.io/blogs/dingshi)
 
 
 <br>
