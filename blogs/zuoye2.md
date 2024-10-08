@@ -1,5 +1,10 @@
 # 资产搜索引擎
 
+<br>
+
+
+
+# 钟馗之眼
 
 <br>
 
@@ -19,7 +24,7 @@ ZoomEye（“钟馗之眼”）是知道创宇旗下404实验室驱动打造的�
 
 <br>
 
-用fofa搜索广西区域的用友-NC-Cloud资产
+用fofa搜索广西区域的用友-NC-Cloud资产：
 
 <br>
 
@@ -27,12 +32,22 @@ ZoomEye（“钟馗之眼”）是知道创宇旗下404实验室驱动打造的�
 
 <br>
 
-子域名收集
+## 子域名收集
 
 <br>
 
-例子：用钟馗之眼搜索以guet.edu.cn结尾的站点
+### 例子：用钟馗之眼搜索以guet.edu.cn结尾的站点
 
 <br>
 
 <img src="https://54huarui.github.io/blogs/zuoye2/2.png" width="880" height="480">
+
+### 通过证书来收集子域名
+
+<br>
+
+https://crt.sh/?q=guet.edu.cn
+
+<br>
+
+<img src="https://54huarui.github.io/blogs/zuoye2/4.png" width="880" height="480">
