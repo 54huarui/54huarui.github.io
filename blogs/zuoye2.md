@@ -51,3 +51,9 @@ https://crt.sh/?q=guet.edu.cn
 <br>
 
 <img src="https://54huarui.github.io/blogs/zuoye2/4.png" width="880" height="480">
+
+### 通过在线网站查询
+
+<br>
+
+<img src="https://54huarui.github.io/blogs/zuoye2/5.png" width="880" height="480">
