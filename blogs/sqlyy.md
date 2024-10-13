@@ -4,7 +4,7 @@
 
 这里记录一下我在hw期间成功复现出来的
 
-相关资产:百色农林投资集团
+相关资产:百****投资集团
 
 <br>
 
@@ -22,7 +22,7 @@
 
 ````
 POST /servlet/~iufo/nc.itf.iufo.mobilereport.data.KeyWordDetailReportQuery  HTTP/1.1
-Host: 171.39.87.248:8088
+Host: ******
 Cache-Control: max-age=0
 Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36
