@@ -28,7 +28,7 @@ title: Blogs
 
 * [社团内网渗透靶场 2024/10/10](https://54huarui.github.io/blogs/no)
 
-* [ctfshow内部赛 CVE-2016-1247 2024/9/29](https://54huarui.github.io/blogs/dingshi)
+* [nginx定时提权 CVE-2016-1247 2024/9/29](https://54huarui.github.io/blogs/dingshi)
 
 * [ctfshow内网渗透复现 2024/9/18](https://54huarui.github.io/blogs/internalwww)
 
@@ -93,7 +93,7 @@ title: Blogs
 
 * [ctfshow内网渗透复现 2024/9/18](https://54huarui.github.io/blogs/internalwww)
 
-* [ctfshow内部赛 除了会连菜刀你还会啥 CVE-2016-1247 2024/9/29](https://54huarui.github.io/blogs/dingshi)
+* [nginx定时提权 CVE-2016-1247 2024/9/29](https://54huarui.github.io/blogs/dingshi)
 
 
 
