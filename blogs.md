@@ -16,6 +16,8 @@ title: Blogs
 
 * [qq9内网图片传输捕获](https://54huarui.github.io/blogs/zuoye3)
 
+* [笑脸漏洞poc](https://54huarui.github.io/blogs/zuoye4)
+
 <br>
 
 ***
