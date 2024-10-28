@@ -16,7 +16,9 @@ title: Blogs
 
 * [qq9内网图片传输捕获](https://54huarui.github.io/blogs/zuoye3)
 
-* [笑脸漏洞poc](https://54huarui.github.io/blogs/zuoye4)
+* [笑脸漏洞poc 2024/10/25](https://54huarui.github.io/blogs/zuoye4)
+
+* [msf木马 2024/10/28](https://54huarui.github.io/blogs/zuoye5)
 
 <br>
 
@@ -27,6 +29,8 @@ title: Blogs
 <br>
 
 #### 最近更新：
+
+* [笑脸漏洞poc 2024/10/25](https://54huarui.github.io/blogs/zuoye4)
 
 * [社团内网渗透靶场 2024/10/10](https://54huarui.github.io/blogs/no)
 
