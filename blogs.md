@@ -32,6 +32,8 @@ title: Blogs
 
 * [笑脸漏洞poc 2024/10/25](https://54huarui.github.io/blogs/zuoye4)
 
+* [某CMS漏洞复现 2024/10/20](https://54huarui.github.io/blogs/SHCTF1)
+
 * [社团内网渗透靶场 2024/10/10](https://54huarui.github.io/blogs/no)
 
 * [nginx定时提权 CVE-2016-1247 2024/9/29](https://54huarui.github.io/blogs/dingshi)
