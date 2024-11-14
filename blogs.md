@@ -30,6 +30,8 @@ title: Blogs
 
 #### 最近更新：
 
+* [Java反射 2024/11/14](https://54huarui.github.io/blogs/javare.md)
+
 * [笑脸漏洞poc 2024/10/25](https://54huarui.github.io/blogs/zuoye4)
 
 * [某CMS漏洞复现 2024/10/20](https://54huarui.github.io/blogs/SHCTF1)
@@ -44,19 +46,6 @@ title: Blogs
 
 * [python原型链污染 2024/9/11](https://54huarui.github.io/blogs/python原型链污染)
 
-* [某个有意思的php特性 2024/9/9](https://54huarui.github.io/blogs/phptxx)
-
-* [basectf数学大师脚本 2024/8/24](https://54huarui.github.io/blogs/mathma)
-
-* [私有对象在反序列化中的访问方法 2024/8/24](https://54huarui.github.io/blogs/unif)
-
-* [moecttf铜人阵脚本 2024/8/19](https://54huarui.github.io/blogs/tongren)
-
-* [登陆类sql注入 2024/8/19](https://54huarui.github.io/blogs/sqllogin)
-
-* [记一个很有趣的php绕过 2024/8/18](https://54huarui.github.io/blogs/php1)
-
-* [moectf2024反序列化 2024/8/13](https://54huarui.github.io/blogs/uni3)
 
 
 <br>
@@ -150,9 +139,11 @@ title: Blogs
 
 - [Struts2漏洞 2024/1/14](https://54huarui.github.io/blogs/java)
 
-- [java反序列化 2024/2/11](https://54huarui.github.io/blogs/javax)
+- [初识java反序列化 2024/2/11](https://54huarui.github.io/blogs/javax)
 
 - [log4j 2024/5/26](https://54huarui.github.io/blogs/log4j)
+
+- [Java反射 2024/11/14](https://54huarui.github.io/blogs/javare.md)
 
 <br>
 
