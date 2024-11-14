@@ -238,3 +238,38 @@ stname.invoke(stu1,"wm"); //invoke(激活):执行函数，参数：(用于执行
 Method hello = stuclass.getDeclaredMethod("test", String.class);
 hello.invoke(stu1,"abc");
 ````
+
+stuclass.getMethod("setName", String.class)：从 stuclass（即 student 类的 Class 对象）中获取 setName 方法。
+getMethod() 的第一个参数是方法名，第二个参数是方法的参数类型
+
+stname.invoke(stu1, "wm")：通过反射调用 stname 方法，即调用 stu1 对象的 setName 方法，并传入参数 "wm"。
+
+hello方法同理，不在叙述
+
+
+## 操作对象属性
+
+<br>
+
+````
+Field stuid = stuclass.getDeclaredField("name");
+stuid.setAccessible(true); //对于修改private属性，要先关闭程序安全检测（默认为true）
+stuid.set(stu1,"wm1111"); //set修改，参数：要修改属性的对象,修改后的值
+hello.invoke(stu1,"def");
+````
+
+通过反射来访问并修改 student 类的私有属性 name，然后再次调用 test 方法
+
+stuclass.getDeclaredField("name")：从 stuclass（即 student 类的 Class 对象）中获取 name 字段（即属性）
+
+关于set方法：
+
+set() 方法不是 Class 类，而是 Field 类 的方法。Field 类在 java.lang.reflect 包中，用于表示类的属性（字段）。通过 Field 对象的 set() 方法，可以为特定对象的字段设置值。
+
+<br>
+
+## 写在后面
+
+<br>
+
+唉，体测
