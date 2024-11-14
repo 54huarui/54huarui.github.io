@@ -145,7 +145,7 @@ c.getSuperclass()意思是获取 student 的父类 Class 对象，这里是 pers
 
 <br>
 
-接下来以这个
+接下来以这个类来举例
 
 ````
 class student {
@@ -185,4 +185,56 @@ class student {
                 '}';
     }
 }
+````
+
+<br>
+
+## 通过反射创造对象：
+
+<br>
+
+````
+Class stuclass = Class.forName("student");
+student stu = (student)stuclass.newInstance();
+````
+
+首先是获取 student 类的 Class 对象，这个在前面有讲，不在叙述。
+student stu = (student)stuclass.newInstance(); 这句话的目的其实是创建一个student类的一个名叫stu实例。
+stuclass.newInstance()会通过 student 类的无参构造函数来创建一个 student 类的对象。这里要求 student 类必须有一个无参构造函数。而newInstance() 返回一个 Object 类型，所以需要进行类型转换 (student)，将返回的对象强制转换为 student 类型。
+
+<br>
+
+## 通过反射创造带参构造器的对象：
+
+<br>
+
+````
+Constructor constr = stuclass.getConstructor(int.class,String.class); //获取类的构造器，参数：构造器参数类型的class
+student stu1 = (student) constr.newInstance(12,"Tom");
+````
+
+stuclass.getConstructor(int.class, String.class) 用于获取 student 类中接受 int 和 String 两个参数的构造函数。
+
+这里对应了例子中的:
+````
+    public student(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+````
+关于Constructor 对象：
+
+Constructor 对象是 Java 反射机制中的一部分，用于表示类的构造函数。它的存在是为了提供一种方式，允许程序在运行时动态地访问和使用构造函数创建对象实例。与 Method 对象（用于表示普通方法）类似，Constructor 对象专门负责构造函数的管理。
+
+<br>
+
+## 执行对象方法
+
+<br>
+
+````
+Method stname = stuclass.getMethod("setName", String.class); //获取类的方法，参数：方法名,方法参数类型的Class
+stname.invoke(stu1,"wm"); //invoke(激活):执行函数，参数：(用于执行函数的对象，函数参数)
+Method hello = stuclass.getDeclaredMethod("test", String.class);
+hello.invoke(stu1,"abc");
 ````
