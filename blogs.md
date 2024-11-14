@@ -30,7 +30,7 @@ title: Blogs
 
 #### 最近更新：
 
-* [Java反射 2024/11/14](https://54huarui.github.io/blogs/javare.md)
+* [Java反射 2024/11/14](https://54huarui.github.io/blogs/javare)
 
 * [笑脸漏洞poc 2024/10/25](https://54huarui.github.io/blogs/zuoye4)
 

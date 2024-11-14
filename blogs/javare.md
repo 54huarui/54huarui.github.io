@@ -138,3 +138,51 @@ System.out.println(c3.getMethod("getJob"));
 
 c.getSuperclass()意思是获取 student 的父类 Class 对象，这里是 person 类。
 通过getMethod方法在 person 类中获得 getJob 方法。
+
+<br>
+
+## 操作对象
+
+<br>
+
+接下来以这个
+
+````
+class student {
+    private int id = 0;
+    private String name = "mak";
+ 
+    public int getId() {
+        return id;
+    }
+ 
+    public String getName() {
+        return name;
+    }
+ 
+    public student(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+ 
+    public void setName(String name) {
+        this.name = name;
+    }
+ 
+    public void setId(int id) {
+        this.id = id;
+    }
+ 
+    void test(String name){
+        System.out.println("hello,"+this.name+" and "+name);
+    }
+ 
+    @Override
+    public String toString() {
+        return "student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
+}
+````
