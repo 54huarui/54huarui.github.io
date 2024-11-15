@@ -34,8 +34,8 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 links:
   - title: 主页
     url: /
-  - title: 哔哩哔哩
-    url: bilibili
+#  - title: 哔哩哔哩
+#    url: bilibili
 #  - title: Publications
 #    url: /publications/
  # - title: Awards
