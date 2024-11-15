@@ -158,3 +158,9 @@ putVal接收三个参数，第一个是key值的哈希，第二个是键，第�
 <br>
 
 跟进handler的hashcode方法
+
+<br>
+
+<img src="https://54huarui.github.io/blogs/javaud/5.png" width="880" height="480">
+
+<br>
