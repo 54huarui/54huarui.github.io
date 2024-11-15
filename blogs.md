@@ -147,6 +147,9 @@ title: Blogs
 
 - [Java反射 2024/11/14](https://54huarui.github.io/blogs/javare.md)
 
+- [Java URLDNS链 2024/11/14](https://54huarui.github.io/blogs/javaud)
+
+
 <br>
 
 ### XSS
