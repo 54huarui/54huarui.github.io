@@ -108,3 +108,53 @@ URLDNS链子，从HashMap出发
 <img src="https://54huarui.github.io/blogs/javaud/1.png" width="880" height="480">
 
 <br>
+
+看到最后可以发现，对我们传入的参数进行操作的是这个putVal
+
+<br>
+
+<img src="https://54huarui.github.io/blogs/javaud/2.png" width="880" height="480">
+
+<br>
+
+putVal接收三个参数，第一个是key值的哈希，第二个是键，第三个是值。键和值是可以传入的，我们进入hash方法
+
+<br>
+
+<img src="https://54huarui.github.io/blogs/javaud/3.png" width="880" height="480">
+
+<br>
+
+````
+    static final int hash(Object key) {
+        int h;
+        return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
+    }
+````
+
+<br>
+
+这下看懂了，这里有一个判断，如果传入的值是null，就会返回0；否则就会返回一段经过使用了hashcode方法的算法计算出来的值
+
+这个hashcode方法有点特殊，可以看到几乎每个类都有这个方法，这是因为很多类都有一个终极父类Object，会将hashcode方法继承下来
+
+在这个例子中他调用的是URL类的hashcode方法，我们跟进URL类找到hashcode方法
+
+<br>
+
+<img src="https://54huarui.github.io/blogs/javaud/4.png" width="880" height="480">
+
+<br>
+
+这里就是URL类的hashcode方法，可以看到他先做一个判断，检查对象的 hashCode 是否已经被计算过。如果 hashCode 的值不等于 -1，说明哈希码已经被计算并缓存了。如果哈希码已经被计算（即 hashCode != -1），则直接返回缓存的 hashCode 值，避免重复计算。这样做能提高性能，尤其是在需要频繁计算哈希码的场景中。
+
+不过这个不是重点，重点是下面这个
+
+````
+        hashCode = handler.hashCode(this);
+        return hashCode;
+````
+
+<br>
+
+跟进handler的hashcode方法
