@@ -99,3 +99,12 @@ URLDNS链子，从HashMap出发
 
 <br>
 
+可以看到HashMap接收了两个泛型，调用了Map，Cloneable，Serializable接口
+
+看向它的结构，可以看到HashMap重写了readObject方法
+
+<br>
+
+<img src="https://54huarui.github.io/blogs/javaud/1.png" width="880" height="480">
+
+<br>
