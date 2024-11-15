@@ -84,3 +84,18 @@ class exec {
 那其实安全问题也就出来了，只要服务端反序列化数据，传递类中的readobject方法会自动执行，给予攻击者在服务器上运行代码的能力
 
 即我们在类中自定义readobject方法，并在里面添加命令执行的代码如上。这样的手段类似于重写readobject方法
+
+<br>
+
+## 链
+
+<br>
+
+URLDNS链子，从HashMap出发
+
+<br>
+
+<img src="https://54huarui.github.io/blogs/javaud/0.png" width="880" height="480">
+
+<br>
+
