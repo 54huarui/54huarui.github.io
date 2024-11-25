@@ -30,6 +30,8 @@ title: Blogs
 
 #### 最近更新：
 
+* [Java笔记 2024/11/21](https://54huarui.github.io/blogs/javabiji)
+
 * [Java URLDNS链 2024/11/20](https://54huarui.github.io/blogs/javaud)
 
 * [Java反射 2024/11/14](https://54huarui.github.io/blogs/javare)
