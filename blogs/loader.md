@@ -12,7 +12,7 @@ Java 的类加载器（ClassLoader）是 Java 中的核心机制之一，它负�
 
 <br>
 
-<img src="https://54huarui.github.io/blogs/loader/0.png" width="880" height="480">
+![这是图片](/loader/0.png "Magic Gardens")
 
 <br>
 
@@ -36,6 +36,7 @@ Java 的类加载器（ClassLoader）是 Java 中的核心机制之一，它负�
 
 <br>
 
+如果需要加载自定义位置的类，例如从网络、加密文件中加载。此时可以通过继承 ClassLoader 类来自定义类加载器。
 
 ## 加载器们
 
@@ -46,3 +47,17 @@ Java 的类加载器（ClassLoader）是 Java 中的核心机制之一，它负�
 | Bootstrap Classloader |由原生代码（如C语言）编写，不继承自java.lang.ClassLoader。负责加载核心Java库，存储在<JAVA_HOME>/jre/lib目录中。|
 | ExtClassLoader        |用来在<JAVA_HOME>/jre/lib/ext,或java.ext.dirs中指明的目录中加载 Java的扩展库。Java 虚拟机的实现会提供一个扩展库目录。该类加载器在此目录里面查找并加载 Java 类。该类由sun.misc.Launcher$ExtClassLoader实现。|
 | AppClassLoader        |根据 Java应用程序的类路径（java.class.path或CLASSPATH环境变量）来加载 Java 类。一般来说，Java 应用的类都是由它来完成加载的。可以通过 ClassLoader.getSystemClassLoader()来获取它。该类由sun.misc.Launcher$AppClassLoader实现。|
+
+<br>
+
+## 双亲委派模型
+
+<br>
+
+当一个类加载器需要加载类时，首先将请求委托给父加载器处理。
+
+如果父加载器无法找到该类，则由当前类加载器尝试加载。
+
+这样做可以避免类的重复加载，并确保核心类（如 java.lang.String）不会被自定义类加载器覆盖。
+
+![这是图片](/loader/1.png "Magic Gardens")
