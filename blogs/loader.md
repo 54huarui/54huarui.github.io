@@ -12,7 +12,7 @@ Java 的类加载器（ClassLoader）是 Java 中的核心机制之一，它负�
 
 <br>
 
-![这是图片](/loader/0.png "Magic Gardens")
+![这是图片](/blogs/loader/0.png "Magic Gardens")
 
 <br>
 
@@ -60,4 +60,4 @@ Java 的类加载器（ClassLoader）是 Java 中的核心机制之一，它负�
 
 这样做可以避免类的重复加载，并确保核心类（如 java.lang.String）不会被自定义类加载器覆盖。
 
-![这是图片](/loader/1.png "Magic Gardens")
+![这是图片](/blogs/loader/1.png "Magic Gardens")
