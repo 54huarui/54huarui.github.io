@@ -40,8 +40,8 @@ links:
 #    url: /publications/
  # - title: Awards
 #    url: /awards/
-#- title: Fundings
-#    url: /fundings/
+  - title: JAVA
+    url: /JAVA/
 #title: 回显接收
 #url: /hobbies/
   - title: 博客

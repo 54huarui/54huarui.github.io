@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f920e74b-b2c1-48b2-9d1a-c9834de4255b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogs.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/loader.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/loader.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/sun.misc.Unsafe.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/sun.misc.Unsafe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundings.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +246,7 @@
       <workItem from="1732530925340" duration="3207000" />
       <workItem from="1732621611782" duration="3952000" />
       <workItem from="1732876486028" duration="2000" />
-      <workItem from="1733051703727" duration="1776000" />
+      <workItem from="1733051703727" duration="3036000" />
     </task>
     <servers />
   </component>
