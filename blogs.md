@@ -33,7 +33,7 @@ title: Blogs
 
 <br><br>
 
-* [Classloader 2024/11/26](https://54huarui.github.io/blogs/loader)
+* [Classloader 2024/12/1](https://54huarui.github.io/blogs/loader)
 
 * [Java笔记? 2024/11/21](https://54huarui.github.io/blogs/javabiji)
 
@@ -145,6 +145,8 @@ title: Blogs
 <br>
 
 ### JAVA
+
+- [Classloader 2024/12/1](https://54huarui.github.io/blogs/loader)
 
 - [Struts2漏洞 2024/1/14](https://54huarui.github.io/blogs/java)
 

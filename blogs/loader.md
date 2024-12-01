@@ -33,7 +33,7 @@ Java 的类加载器（ClassLoader）是 Java 中的核心机制之一，它负�
 |setClassAssertionStatus(String className, boolean enabled)	| 设置指定类的断言状态。可以通过这个方法来控制指定类是否启用或禁用断言。|
 |clearAssertionStatus()	| 清除类加载器的断言状态，将其重置为默认值。这会清除所有已设置的包和类的断言状态设置。|
 
-
+  
 <br>
 
 如果需要加载自定义位置的类，例如从网络、加密文件中加载。此时可以通过继承 ClassLoader 类来自定义类加载器。
@@ -61,3 +61,26 @@ Java 的类加载器（ClassLoader）是 Java 中的核心机制之一，它负�
 这样做可以避免类的重复加载，并确保核心类（如 java.lang.String）不会被自定义类加载器覆盖。
 
 ![这是图片](/blogs/loader/1.png "Magic Gardens")
+
+
+就我的理解而言，它是一层一层地将类传递上去的。首先类先进入UserClasssloader，UserClasssloader调用AppClassLoader加载，然后AppClassLoader将类传递给ExtClassLoader，ExtClassLoader通过方法findBootstrapClass()将请求委托给Bootstrap Classloader。如果Bootstrap Classloader无法加载类，则parent==null，Bootstrap Classloader就会向下传递给ExtClassLoader，同理再传递给AppClassLoader，如果AppClassLoader未能加载，就会将请求发回UserClasssloader 
+
+事实上各个加载器之间并非父子的继承关系，而是组合的关系，只是加载委托的时候需要逐级传递，所以被翻译成了"双亲委派"的说法
+
+<br>
+
+## 类加载器的特性
+
+<br>
+
+* 用来确定类的唯一性。java通过一个二元组<N,L>来确定类的唯一性：
+    * N:类的全限定名
+    * L:加载定义这个类的类加载器ClassLoader
+
+* 传递性
+    * 类如果是由某加载器加载，那么它的依赖类也会由同一个加载器进行加载 
+* 可见性
+    * 当前类加载器可以直接或通过委派间接加载到父加载器，而父加载器不能直接或通过委派间接加载到当前加载器
+
+
+
