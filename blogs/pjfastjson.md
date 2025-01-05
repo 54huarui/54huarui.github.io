@@ -12,4 +12,10 @@
 <br>
 
 
-项目打算开源到
+项目打算开源到github上，gui大概长这样
+
+<br>
+
+<img src="https://54huarui.github.io/blogs/pjfastjson/1.png" width="880" height="480">
+
+<br>
