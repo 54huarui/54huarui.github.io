@@ -19,3 +19,5 @@
 <img src="https://54huarui.github.io/blogs/pjfastjson/1.png" width="880" height="480">
 
 <br>
+
+还在慢慢慢慢地磨蹭，如果你看到这里作者还没上传第一个Releases，请速度去拷打作者。
