@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f920e74b-b2c1-48b2-9d1a-c9834de4255b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogs.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/sun.misc.Unsafe.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/sun.misc.Unsafe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fundings.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +243,12 @@
       <workItem from="1732530925340" duration="3207000" />
       <workItem from="1732621611782" duration="3952000" />
       <workItem from="1732876486028" duration="2000" />
-      <workItem from="1733051703727" duration="3036000" />
+      <workItem from="1733051703727" duration="3689000" />
+      <workItem from="1733131911195" duration="3000" />
+      <workItem from="1734344553050" duration="1717000" />
+      <workItem from="1734960206553" duration="1258000" />
+      <workItem from="1735134440182" duration="14000" />
+      <workItem from="1736092410867" duration="286000" />
     </task>
     <servers />
   </component>

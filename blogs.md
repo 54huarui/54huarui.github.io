@@ -31,7 +31,10 @@ title: Blogs
 #### 最近更新：
 
 
-<br><br>
+<br>
+
+
+* [project_FASTJSON 2025/1/4](https://54huarui.github.io/blogs/pjfastsjson)
 
 * [sun.misc.Unsaf 2024/12/1](https://54huarui.github.io/blogs/sun.misc.Unsafe)
 
