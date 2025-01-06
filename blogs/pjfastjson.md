@@ -11,7 +11,7 @@
 [链接 54huarui/fastjsonfileread-test-exp](https://github.com/54huarui/fastjsonfileread-test-exp)
 
 
-<img src="2.png" width="880" height="480">
+<img src="https://54huarui.github.io/blogs/pjfastjson/2.png" width="880" height="480">
 
 
 <br>
