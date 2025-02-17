@@ -33,6 +33,8 @@ title: Blogs
 
 <br>
 
+* [Servlet 2025/2/17](https://54huarui.github.io/blogs/servet)
+
 * [project_FASTJSON 2025/1/4](https://54huarui.github.io/blogs/pjfastjson)
 
 * [sun.misc.Unsaf 2024/12/1](https://54huarui.github.io/blogs/sun.misc.Unsafe)
