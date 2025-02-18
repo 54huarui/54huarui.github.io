@@ -33,7 +33,7 @@ title: Blogs
 
 <br>
 
-* [Servlet 2025/2/18](https://54huarui.github.io/blogs/cc1)
+* [RMI 2025/2/18](https://54huarui.github.io/blogs/cc1)
 
 * [Servlet 2025/2/17](https://54huarui.github.io/blogs/servet)
 
