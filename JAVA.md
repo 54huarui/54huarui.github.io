@@ -33,3 +33,12 @@ title: JAVA
 
 * [Java反射 2024/11/14](https://54huarui.github.io/blogs/javare)
 
+
+------------------------------------
+
+- [Struts2漏洞 2024/1/14](https://54huarui.github.io/blogs/java)
+
+- [初识java反序列化 2024/2/11](https://54huarui.github.io/blogs/javax)
+
+- [log4j 2024/5/26](https://54huarui.github.io/blogs/log4j)
+
