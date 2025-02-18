@@ -14,21 +14,21 @@
 Servlet-mapping 标签组成，两者通过在 Servlet 和 Servlet-mapping 标签中相同的
 Servlet-name 名称实现关联，在图 4-3 中的标签含义如下。
 
-● <servlet>：声明 Servlet 配置入口。
+servlet：声明 Servlet 配置入口。
 
-● <description>：声明 Servlet 描述信息。
+description：声明 Servlet 描述信息。
 
-● <display-name>：定义 Web 应用的名字。
+* <display-name>：定义 Web 应用的名字。
 
-● <servlet-name>：声明 Servlet 名称以便在后面的映射时使用。
+* <servlet-name>：声明 Servlet 名称以便在后面的映射时使用。
 
-● <servlet-class>：指定当前 servlet 对应的类的路径。
+* <servlet-class>：指定当前 servlet 对应的类的路径。
 
-● <servlet-mapping>：注册组件访问配置的路径入口。
+* <servlet-mapping>：注册组件访问配置的路径入口。
 
-● <servlet-name>：指定上文配置的 Servlet 的名称。
+* <servlet-name>：指定上文配置的 Servlet 的名称。
 
-● <url-pattern>：指定配置这个组件的访问路径。
+* <url-pattern>：指定配置这个组件的访问路径。
 
 ## Servlet 注解
 
