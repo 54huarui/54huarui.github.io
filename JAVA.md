@@ -16,14 +16,25 @@ title: JAVA
 
 -------------------------------
 
+## 项目
+
 <br>
 
+* [Project_FASTJSON 2025/2/24](https://github.com/54huarui/fastjsonfileread-test-exp) (持续更新 上次更新于2025/2/24)
+
+* [Bilibili-Film-Area-top-webcrawler 2024/10](https://github.com/54huarui/Bilibili-Film-Area-top-webcrawler) (已完成)
+
+<br>
+
+---------------------------------
+
+## 博客
+
+* [fastjson1.2.24 RCE 2025/2/24](https://54huarui.github.io/blogs/fastjson2)
 
 * [RMI 2025/2/18](https://54huarui.github.io/blogs/cc1)
 
 * [Servlet 2025/2/17](https://54huarui.github.io/blogs/servet)
-
-* [project_FASTJSON 2025/1/4](https://54huarui.github.io/blogs/pjfastjson)
 
 * [sun.misc.Unsaf 2024/12/1](https://54huarui.github.io/blogs/sun.misc.Unsafe)
 

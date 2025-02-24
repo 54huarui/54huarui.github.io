@@ -33,6 +33,8 @@ title: Blogs
 
 <br>
 
+* [Fastjson 1.2.24 RCE 2025/2/19](https://54huarui.github.io/blogs/fastjson2)
+
 * [RMI 2025/2/18](https://54huarui.github.io/blogs/cc1)
 
 * [Servlet 2025/2/17](https://54huarui.github.io/blogs/servet)
