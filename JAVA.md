@@ -30,6 +30,8 @@ title: JAVA
 
 ## 博客
 
+
+
 * [fastjson1.2.24 RCE 2025/2/24](https://54huarui.github.io/blogs/fastjson2)
 
 * [RMI 2025/2/18](https://54huarui.github.io/blogs/cc1)

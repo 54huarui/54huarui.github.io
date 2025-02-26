@@ -7,7 +7,7 @@
     <list default="true" id="f920e74b-b2c1-48b2-9d1a-c9834de4255b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JAVA.md" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/fastjson2.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/fastjson2.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +269,8 @@
       <workItem from="1739875952375" duration="3996000" />
       <workItem from="1739965373389" duration="3852000" />
       <workItem from="1740391367832" duration="1607000" />
-      <workItem from="1740396333935" duration="325000" />
+      <workItem from="1740396333935" duration="1536000" />
+      <workItem from="1740567846529" duration="3787000" />
     </task>
     <servers />
   </component>
