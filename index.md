@@ -11,6 +11,14 @@ layout: page
 
 
 ## <font color=''> 这里是花蕊的博客</font>
+
+
+<br>
+
+# 特别注意，博客已迁到至[**https://huarui.blog/**](https://huarui.blog/)。本博客已经停止更新
+
+
+
 <br><br>
 
 <br><br>

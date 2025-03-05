@@ -4,6 +4,11 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
+
+# 特别注意，博客已迁到至[**https://huarui.blog/**](https://huarui.blog/)。本博客已经停止更新
+
+
+
 ***
 
 # 渗透测试作业

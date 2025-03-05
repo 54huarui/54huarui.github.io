@@ -3,8 +3,12 @@ layout: page
 permalink: /JAVA/index.html
 title: JAVA
 ---
-
 # JAVA
+
+
+# 特别注意，博客已迁到至[**https://huarui.blog/**](https://huarui.blog/)。本博客已经停止更新
+
+
 
 <br><br>
 
