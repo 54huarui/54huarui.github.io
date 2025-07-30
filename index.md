@@ -15,7 +15,7 @@ layout: page
 
 <br>
 
-# 特别注意，博客已迁到至[**https://huarui.blog/**](https://huarui.blog/)。本博客已经停止更新
+# 特别注意，博客已迁到至[**https://huarui.blog/**](https://huarui.blog/)或[**https://54huarui.online/**](https://54huarui.online/)。本博客已经停止更新
 
 
 
